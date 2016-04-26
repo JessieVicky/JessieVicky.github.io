@@ -162,6 +162,8 @@ h1{
 }
 
 #blodtappen img{
+    float: left;
+    margin-right: 100px;
     height: 200px;
     widows: 200px;
 }
