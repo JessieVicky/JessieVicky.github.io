@@ -14,15 +14,14 @@ nav{
 }
 nav ul {
     overflow: hidden;
-    margin:0;
     padding:0;
+    margin-right: 150px;
 }
 
 nav ul li {
     list-style: none;
     float: right;
     text-align: center;
-    margin-right: 150px;
 }
 
 
