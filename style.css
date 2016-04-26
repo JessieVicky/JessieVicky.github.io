@@ -2,6 +2,7 @@ body{
 }
 
 #headerimg {
+    position: absolute;
     height: 500px;
     width: 100%;
 }
