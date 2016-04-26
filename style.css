@@ -2,11 +2,8 @@ body{
     background: #f0f0f0;
 }
 
-.bg_img{
-    background-attachment: fixed;
-}
-
 #headerimg {
+    background-attachment: fixed;
     height: 400px;
     width: 100%;
 }
@@ -92,4 +89,6 @@ li a.overline-reveal:hover:before {
      transform: translateY(0px);
  }
 
-
+#keywords{
+    height: 900px;
+}
