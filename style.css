@@ -156,7 +156,7 @@ h2{
     right: 0;
     bottom: 0;
     margin: 0px;
-    padding: 2px;
+    padding: 10px;
     background: black;
     color: #fff;
     opacity:0;
@@ -164,7 +164,7 @@ h2{
 }
 
 .box1:hover h2{
-    opacity:0.3;
+    opacity:0.1;
 }
 
 /* ####################### PROJEKT ####################### */
