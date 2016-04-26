@@ -163,15 +163,15 @@ h2{
 }
 
 .box1 h2{
-    background: #ff8533;
+    background: #ff6600;
 }
 
 .box2 h2{
-    background: #a8ff80;
+    background: #74ff33;
 }
 
 .box3 h2{
-    background: #ffff66;
+    background: #ffff1a;
 }
 
 .box1:hover h2, .box2:hover h2, .box3:hover h2{
