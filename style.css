@@ -4,15 +4,12 @@ body{
 }
 
 #headerimg {
-    left: -20px;
     height: 500px;
     width: 100%;
 }
 
 /* ####################### NAVBAR ####################### */
 nav{
-    position: absolute;
-    padding-top: 2px;
     width: 100%;
     background: #fff;
 }
