@@ -11,7 +11,7 @@ body{
 nav{
     width: 100%;
     background: #fff;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 nav .navborder{
@@ -101,7 +101,6 @@ li a.overline-reveal:hover:before {
 #main{
     margin-top: -10px;
     padding-top: 30px;
-
 }
 
 /* ####################### KEYWORDS ####################### */
