@@ -22,7 +22,7 @@
         list-style: none;
         float: right;
         text-align: center;
-        margin-right: 1px;
+        margin-right: 10px;
     }
 
 
@@ -47,7 +47,6 @@
         list-style: none;
         float: left;
         text-align: center;
-        margin-right: 1px;
     }
 
     li#logo a img{
@@ -57,7 +56,7 @@
 
     li#logo a{
         text-align: left;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     li#logo:hover a{
