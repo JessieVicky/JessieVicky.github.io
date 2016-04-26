@@ -165,10 +165,12 @@ h1{
     float: left;
     margin-right: 100px;
     height: 250px;
-    widows: 250px;
+    width: 250px;
 }
 
 #blodtappen #mh p{
+    padding-top: 20%;
+    padding-bottom: 20%;
     width: 800px;
     height: 200px;
 }
