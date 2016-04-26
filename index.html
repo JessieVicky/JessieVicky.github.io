@@ -6,7 +6,7 @@
 
 </head>
 <body>
-<script src="jquery-min.js" type="text/javascript"></script>
+<script src="jquery-min.js"></script>
     <script>
         $(document).on('click','.overline', (function(event) {
             event.preventDefault();
@@ -15,7 +15,7 @@
             $('html, body').animate({
                 scrollTop: $(target).offset().top
             }, 2000);
-        });
+        }));
     </script>
 <nav>
     <div class="navborder">
