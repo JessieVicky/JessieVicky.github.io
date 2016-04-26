@@ -22,7 +22,7 @@ nav ul li {
     list-style: none;
     float: right;
     text-align: center;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 
@@ -35,11 +35,6 @@ li a {
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
     color: #DE3163;
     text-decoration: none;
-}
-
-/*Hover state for top level links*/
-li:hover a {
-    color: ;
 }
 
 /* Logo specific */
@@ -59,9 +54,6 @@ li#logo a{
     margin-left: 20px;
 }
 
-li#logo:hover a{
-    background: #fff;
-}
 
 li a.overline-reveal {
     -webkit-transform: translateZ(0);
