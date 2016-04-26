@@ -182,14 +182,14 @@ h1{
 
 #bo p{
     float: left;
-    width: 450px;
+    width: 550px;
     height: 200px;
     text-align: justify;
 }
 
 #bo img{
     float: right;
-    margin-right: 30px;
+    margin-right: 40px;
     margin-left: 60px;
     height: 250px;
     width: 250px;
