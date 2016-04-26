@@ -155,7 +155,8 @@ h2{
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 2px;
+    margin: 0px;
+    padding: 2px;
     background: black;
     color: #fff;
     opacity:0;
