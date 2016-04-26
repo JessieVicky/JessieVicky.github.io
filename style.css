@@ -157,18 +157,19 @@ h1{
 }
 
 #blodtappen{
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 130px;
+    margin-right: 130px;
 }
 
 #blodtappen img{
     float: left;
     margin-right: 100px;
-    height: 200px;
-    widows: 200px;
+    height: 250px;
+    widows: 250px;
 }
 
 #blodtappen p{
+    width: 400px;
     float: left;
 }
 
