@@ -168,11 +168,11 @@ h2{
 }
 
 .box2 h2{
-    background: #74ff33;
+    background: #51ff00;
 }
 
 .box3 h2{
-    background: #ffff1a;
+    background: #ffff00;
 }
 
 .box1:hover h2, .box2:hover h2, .box3:hover h2{
@@ -182,7 +182,7 @@ h2{
 /* ####################### PROJEKT ####################### */
 #projekt{
     width: auto;
-    height: 800px;
+    height: 700px;
     background: #f2f2f2;
     padding-top: 65px;
 }
