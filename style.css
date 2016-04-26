@@ -11,6 +11,7 @@ body{
 nav{
     width: 100%;
     background: #fff;
+    margin-top: -5px;
 }
 
 nav .navborder{
@@ -114,7 +115,7 @@ li a.overline-reveal:hover:before {
     margin-right: 150px;
 }
 
-.box{
+.box1, .box2, .box3{
     float: left;
     background: #ebebfa;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
@@ -125,7 +126,7 @@ li a.overline-reveal:hover:before {
 
 }
 
-.box h1{
+.box1, .box2, .box3 h1{
     margin: 0;
     position: absolute;
     top: 50%;
