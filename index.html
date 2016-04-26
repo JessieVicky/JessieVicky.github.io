@@ -43,7 +43,7 @@
     <div id="gallerydoor" data-target="gd"></div>
 </div>
 <script>
-$('.overline').click(function(event) {
+$(document).on('click','.overline', (function(event) {
     event.preventDefault();
     var target = "#projekt";
     $.scrollTo($(target),500);
