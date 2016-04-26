@@ -166,18 +166,33 @@ h1{
     margin-bottom: 70px;
 }
 
-#blodtappen img{
+#mh img{
     float: left;
     margin-right: 60px;
     height: 250px;
     width: 250px;
 }
 
-#blodtappen #mh p{
+#mh p{
     padding-top: 3%;
     width: 975px;
     height: 200px;
     text-align: justify;
 }
+
+#bo p{
+    float: left;
+    width: 975px;
+    height: 200px;
+    text-align: justify;
+}
+
+#bo img{
+    float: right;
+    margin-left: 60px;
+    height: 250px;
+    width: 250px;
+}
+
 
 /* ####################### TIMELINE ####################### */
