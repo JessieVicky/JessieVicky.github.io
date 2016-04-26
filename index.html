@@ -10,9 +10,9 @@
     <div class="navborder">
         <ul>
             <li id="logo" class="active"><a href="#"><img id="headerlogo" src="Rotaract_red.jpg"></a></li>
-            <li><a href="#" class="overline" data-target="gd">Bildgalleri</a></li>
-            <li><a href="#" class="overline" data-target="pr">Projekt</a></li>
-            <li><a href="#" class="overline" data-target="kw">Vilka är vi</a></li>
+            <li><a href="#" class="overline" data-target="gallerydoors">Bildgalleri</a></li>
+            <li><a href="#" class="overline" data-target="projekt">Projekt</a></li>
+            <li><a href="#" class="overline" data-target="keywords">Vilka är vi</a></li>
         </ul>
     </div>
 </nav>
@@ -21,7 +21,7 @@
 
 
 <div id="wrapper">
-    <div id="keywords" data-target="kw">
+    <div id="keywords" data-target="keywords">
         <div class="boxes">
             <div class="box1"><h1>Välgörenhet</h1><h2>hejhejhej</h2></div>
             <div class="box2"><h1>Nätverk</h1><h2>tjotjotjotjotjotjotjotjotjotjotjo</h2></div>
@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <div id="projekt" data-target="pr">
+    <div id="projekt" data-target="projekt">
     <div id="blodtappen">
         <div id="mh">
             <img class="projekt1" src="mh15.jpg"><p class="p1text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar. Det blev allmänt känt på 1960-talet i samband med lanseringen av Letraset-ark med avsnitt av Lorem Ipsum, och senare med mjukvaror som Aldus PageMaker.</p>
@@ -40,13 +40,15 @@
     </div>
     </div>
 
-    <div id="gallerydoor" data-target="gd"></div>
+    <div id="gallerydoor" data-target="gallerydoor"></div>
 </div>
 <script>
 $(document).on('click','.overline', (function(event) {
     event.preventDefault();
-    var target = "#projekt";
-    $.scrollTo($(target),500);
+    var target = "#" + this.getAttribute('data-target');
+    $('html, body').animate({
+        scrollTop: $(target).offset().top
+    }, 2000);
 });
 </script>
 </body>
