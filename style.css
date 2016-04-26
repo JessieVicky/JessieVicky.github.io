@@ -171,7 +171,6 @@ h1{
 #blodtappen p{
     width: 600px;
     height: 250px;
-    float: left;
     position: absolute;
     top: 50%;
     margin-right: -50%;
