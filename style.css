@@ -101,7 +101,7 @@ li a.overline-reveal:hover:before {
 #keywords{
     height: auto;
     margin-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     background: #fff;
 }
 
