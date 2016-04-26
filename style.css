@@ -96,6 +96,11 @@ li a.overline-reveal:hover:before {
      transform: translateY(0px);
  }
 
+/* ####################### MAIN ####################### */
+#main{
+    float: left;
+}
+
 /* ####################### KEYWORDS ####################### */
 
 #keywords{
@@ -130,6 +135,7 @@ li a.overline-reveal:hover:before {
     transform: translate(-50%, -50%)
 }
 
+/* ####################### PROJEKT ####################### */
 #projekt{
     position: relative;
 }
