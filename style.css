@@ -99,9 +99,7 @@ li a.overline-reveal:hover:before {
 
 /* ####################### MAIN ####################### */
 #main{
-    height: 800px;
-    margin-top: -10px;
-    padding-top: 30px;
+
 }
 
 /* ####################### KEYWORDS ####################### */
@@ -110,7 +108,8 @@ li a.overline-reveal:hover:before {
     width: auto;
     height: 400px;
     background: #fff;
-
+    margin-top: -10px;
+    padding-top: 30px;
 }
 
 .boxes{
