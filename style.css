@@ -171,8 +171,6 @@ h1{
 #blodtappen #mh p{
     width: 600px;
     height: 250px;
-    top: 50%;
-    transform: translate(0, -50%)
 }
 
 /* ####################### TIMELINE ####################### */
