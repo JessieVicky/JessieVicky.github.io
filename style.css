@@ -98,7 +98,7 @@ li a.overline-reveal:hover:before {
 
 /* ####################### MAIN ####################### */
 #main{
-    float: left;
+    overflow: hidden;
 }
 
 /* ####################### KEYWORDS ####################### */
