@@ -103,6 +103,8 @@ li a.overline-reveal:hover:before {
 
 .box{
     float: left;
+    background: #fff;
+    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
     width: 300px;
     height: 300px;
     margin: 10px;
