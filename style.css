@@ -151,10 +151,6 @@ h1{
 
 h2{
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin: 0px;
     padding: 10px;
     background: black;
@@ -164,7 +160,7 @@ h2{
 }
 
 .box1:hover h2, .box2:hover h2, .box3:hover h2{
-    opacity:0.1;
+    opacity:0.2;
 }
 
 /* ####################### PROJEKT ####################### */
