@@ -166,4 +166,8 @@ h1{
     widows: 200px;
 }
 
+#blodtappen p{
+    float: left;
+}
+
 /* ####################### TIMELINE ####################### */
