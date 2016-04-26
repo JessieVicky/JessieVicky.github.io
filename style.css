@@ -100,6 +100,8 @@ li a.overline-reveal:hover:before {
 /* ####################### MAIN ####################### */
 #main{
     margin-top: -10px;
+    padding-top: 30px;
+
 }
 
 /* ####################### KEYWORDS ####################### */
@@ -107,7 +109,6 @@ li a.overline-reveal:hover:before {
 #keywords {
     width: auto;
     height: 400px;
-    padding-top: 30px;
     background: #fff;
 }
 
