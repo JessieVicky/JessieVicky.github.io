@@ -119,13 +119,24 @@ li a.overline-reveal:hover:before {
 
 .box1, .box2, .box3{
     float: left;
-    background: #ebebfa;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
     width: 300px;
     height: 300px;
     margin: 10px;
     position: relative;
 
+}
+
+.box1{
+    background: #fff0e6;
+}
+
+.box2{
+    background: #ebf0fa;
+}
+
+.box3{
+    background: #ffffcc;
 }
 
 h1{
@@ -139,5 +150,8 @@ h1{
 
 /* ####################### PROJEKT ####################### */
 #projekt{
-    width: 600px;
+    width: auto;
+    height: 400px;
+    background: #fff;
+    padding-top: 30px;
 }
