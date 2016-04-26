@@ -5,15 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<script>
-$(document).on('click','.overline_reveal', function(event) {
-    event.preventDefault();
-    var target = "#" + this.getAttribute('data-target');
-    $('html, body').animate({
-        scrollTop: $(target).offset().top
-    }, 2000);
-});
-</script>
+
 <nav>
     <div class="navborder">
         <ul>
@@ -50,5 +42,14 @@ $(document).on('click','.overline_reveal', function(event) {
 
     <div id="gallerydoor" data-target="gd"></div>
 </div>
+<script>
+$(document).on('click','.overline_reveal', function(event) {
+    event.preventDefault();
+    var target = "#" + this.getAttribute('data-target');
+    $('html, body').animate({
+        scrollTop: $(target).offset().top
+    }, 2000);
+});
+</script>
 </body>
 </html>
