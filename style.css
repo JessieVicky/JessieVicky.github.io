@@ -158,7 +158,6 @@ h2{
     margin: 0px;
     padding: 10px;
     background: black;
-    color: #fff;
     opacity:0;
     transition:1s;
 }
