@@ -15,6 +15,7 @@ nav{
 
 nav .navborder{
     border-bottom: 5px solid #DE3163;
+    bottom: -5px;
 }
 
 nav ul {
