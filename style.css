@@ -2,8 +2,7 @@ body{
 }
 
 #headerimg {
-    margin-top: 0px;
-    position: relative;
+    left: -20px;
     height: 500px;
     width: 100%;
 }
@@ -15,7 +14,6 @@ nav{
     padding-top: 2px;
     width: 100%;
     background: #fff;
-    margin-bottom: 0px;
 }
 
 nav .navborder{
