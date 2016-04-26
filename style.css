@@ -11,14 +11,18 @@ body{
 nav{
     width: 100%;
     background: #fff;
-    border-bottom: 5px solid #DE3163;
 }
+
+.navborder{
+    border-bottom: 5px solid #DE3163;
+
+}
+
 nav ul {
     overflow: hidden;
     margin-top: -2px;
     padding:0;
     margin-right: 150px;
-
 
 }
 
