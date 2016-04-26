@@ -115,7 +115,7 @@ li a.overline-reveal:hover:before {
     margin-right: 150px;
 }
 
-.box1 .box2 .box3{
+.box1, .box2, .box3{
     float: left;
     background: #ebebfa;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
@@ -126,7 +126,7 @@ li a.overline-reveal:hover:before {
 
 }
 
-.box1 h1 .box2 h1 .box3 h1{
+h1{
     margin: 0;
     position: absolute;
     top: 50%;
