@@ -172,6 +172,9 @@ h1{
     width: 600px;
     height: 250px;
     float: left;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(0, -50%)
 }
 
 /* ####################### TIMELINE ####################### */
