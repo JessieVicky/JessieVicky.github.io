@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
 }
 
 #headerimg {
@@ -10,7 +12,6 @@ body{
 /* ####################### NAVBAR ####################### */
 nav{
     position: absolute;
-    left: 0px;
     padding-top: 2px;
     width: 100%;
     background: #fff;
