@@ -3,6 +3,17 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).on('click','.overline', (function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            var target = "#" + this.getAttribute('data-target');
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 2000);
+        });
+    </script>
 </head>
 <body>
 
@@ -30,27 +41,18 @@
     </div>
 
     <div id="projekt" data-target="projekt">
-    <div id="blodtappen">
-        <div id="mh">
-            <img class="projekt1" src="mh15.jpg"><p class="p1text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar. Det blev allmänt känt på 1960-talet i samband med lanseringen av Letraset-ark med avsnitt av Lorem Ipsum, och senare med mjukvaror som Aldus PageMaker.</p>
+        <div id="blodtappen">
+            <div id="mh">
+                <img class="projekt1" src="mh15.jpg"><p class="p1text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar. Det blev allmänt känt på 1960-talet i samband med lanseringen av Letraset-ark med avsnitt av Lorem Ipsum, och senare med mjukvaror som Aldus PageMaker.</p>
+            </div>
+            <div id="bo">
+                <p class="p1text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar. Det blev allmänt känt på 1960-talet i samband med lanseringen av Letraset-ark med avsnitt av Lorem Ipsum, och senare med mjukvaror som Aldus PageMaker.</p><img class="projekt1" src="bo16.jpg">
+            </div>
         </div>
-        <div id="bo">
-            <p class="p1text">Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar. Det blev allmänt känt på 1960-talet i samband med lanseringen av Letraset-ark med avsnitt av Lorem Ipsum, och senare med mjukvaror som Aldus PageMaker.</p><img class="projekt1" src="bo16.jpg">
-        </div>
-    </div>
     </div>
 
     <div id="gallerydoor" data-target="gallerydoor"></div>
 </div>
-<script>
-$(document).on('click','.overline', (function(event) {
-    event.preventDefault();
-    event.stopPropagation();
-    var target = "#" + this.getAttribute('data-target');
-    $('html, body').animate({
-        scrollTop: $(target).offset().top
-    }, 2000);
-});
-</script>
+
 </body>
 </html>
