@@ -163,6 +163,18 @@ h2{
     transition:1s;
 }
 
+.box1 h2{
+    color: #ff8533;
+}
+
+.box2 h2{
+    color: #a8ff80;
+}
+
+.box3 h2{
+    color: #ffff66;
+}
+
 .box1:hover h2, .box2:hover h2, .box3:hover h2{
     opacity:0.2;
 }
