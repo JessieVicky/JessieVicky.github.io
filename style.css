@@ -109,7 +109,7 @@ li a.overline-reveal:hover:before {
     height: 400px;
     background: #fff;
     margin-top: -10px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .boxes{
@@ -152,6 +152,6 @@ h1{
 #projekt{
     width: auto;
     height: 400px;
-    background: #f0f5f5;
+    background: #f2f2f2;
     padding-top: 30px;
 }
