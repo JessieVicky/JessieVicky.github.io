@@ -4,15 +4,53 @@
     <title>Bootstrap Case</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <style type="text/css">
 
     #headerimg {
         height: 400px;
         width: 100%;
+    }
+    ul {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        position: absolute;
+    }
+    li {
+        display:inline-block;
+        float: right;
+        margin-right: 1px;
+    }
+    li a {
+        display:block;
+        min-width:140px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #fff;
+        background: #2f3036;
+        text-decoration: none;
+    }
+
+    /*Hover state for top level links*/
+    li:hover a {
+        background: #19c589;
+    }
+
+    /*Style for dropdown links*/
+    li:hover ul a {
+        background: #f3f3f3;
+        color: #2f3036;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    /*Hover state for dropdown links*/
+    li:hover ul a:hover {
+        background: #19c589;
+        color: #fff;
     }
 
 </style>
@@ -26,14 +64,13 @@
         </div>
         <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Page 21</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
+            <li><a href="#">Vilka är vi</a></li>
+            <li><a href="#">Projekt</a></li>
+            <li><a href="#">Bildgalleri</a></li>
         </ul>
     </div>
 </nav>
 <div id="keywords"></div>
-<div id="gallerydoor">
-    <span>Bildgalleri</span><span>Projekt</span></div>
+<div id="gallerydoor"></div>
 </body>
 </html>
