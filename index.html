@@ -46,9 +46,7 @@
 $('.overline').click(function(event) {
     event.preventDefault();
     var target = "#projekt";
-    $('html, body').animate({
-        scrollTop: $(target).offset().top
-    }, 2000);
+    $.scrollTo($(target),500);
 });
 </script>
 </body>
