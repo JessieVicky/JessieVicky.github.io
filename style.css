@@ -52,6 +52,7 @@
 
     li#logo a{
         text-align: left;
+        margin-left: 2px;
     }
 
     li#logo:hover a{
