@@ -168,7 +168,7 @@ h1{
     widows: 250px;
 }
 
-#blodtappen p{
+#blodtappen #mh p{
     width: 600px;
     height: 250px;
     position: absolute;
