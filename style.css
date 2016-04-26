@@ -104,8 +104,8 @@ li a.overline-reveal:hover:before {
 
 #keywords {
     width: auto;
-    height: 800px;
-    margin-top: 30px;
+    height: 400px;
+    padding-top: 30px;
     background: #F8F8F8;
 }
 
