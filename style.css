@@ -109,7 +109,7 @@ li a.overline-reveal:hover:before {
     height: 400px;
     background: #fff;
     margin-top: -10px;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .boxes{
@@ -173,6 +173,7 @@ h1{
     padding-bottom: 5%;
     width: 950px;
     height: 200px;
+    text-align: justify;
 }
 
 /* ####################### TIMELINE ####################### */
