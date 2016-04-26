@@ -106,7 +106,7 @@ li a.overline-reveal:hover:before {
     width: auto;
     height: 400px;
     padding-top: 30px;
-    background: #e6fff2;
+    background: #fff;
 }
 
 .boxes{
@@ -116,7 +116,7 @@ li a.overline-reveal:hover:before {
 
 .box{
     float: left;
-    background: #fff;
+    background: #ebebfa;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
     width: 300px;
     height: 300px;
