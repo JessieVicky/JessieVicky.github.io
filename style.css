@@ -6,6 +6,8 @@
         height: 400px;
         width: 100%;
     }
+
+    /* ####################### NAVBAR ####################### */
     nav{
         width: 100%;
         background: #fff;
@@ -15,8 +17,6 @@
         margin:0;
         padding:0;
     }
-
-
 
     nav ul li {
         list-style: none;
@@ -47,6 +47,11 @@
     li:hover a {
         background: #19c589;
     }
+
+    li#logo:hover a{
+        background: #fff;
+    }
+
 
     /*Style for dropdown links*/
     li:hover ul a {
