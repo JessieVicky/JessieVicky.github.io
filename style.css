@@ -163,7 +163,7 @@ h2{
     transition:1s;
 }
 
-.box1:hover h2{
+.box1:hover h2, .box2:hover h2, .box3:hover h2{
     opacity:0.1;
 }
 
