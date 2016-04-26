@@ -149,6 +149,23 @@ h1{
     transform: translate(-50%, -50%)
 }
 
+h2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    background: black;
+    color: #fff;
+    opacity:0;
+    transition:1s;
+}
+
+.box1:hover h2{
+    opacity:0.5;
+}
+
 /* ####################### PROJEKT ####################### */
 #projekt{
     width: auto;
