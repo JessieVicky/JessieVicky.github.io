@@ -2,13 +2,15 @@ body{
 }
 
 #headerimg {
+    left: 0px;
     height: 500px;
     width: 100%;
 }
 
 /* ####################### NAVBAR ####################### */
 nav{
-    width: auto;
+    left: 0px;
+    width: 100%;
     background: #fff;
     margin-top: -10px;
 }
