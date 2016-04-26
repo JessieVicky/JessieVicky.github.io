@@ -189,6 +189,7 @@ h1{
 
 #bo img{
     float: right;
+    margin-right: 30px;
     margin-left: 60px;
     height: 250px;
     width: 250px;
