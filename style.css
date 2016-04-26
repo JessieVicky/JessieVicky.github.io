@@ -2,8 +2,11 @@ body{
     background: #f0f0f0;
 }
 
-#headerimg {
+.bg_img{
     background-attachment: fixed;
+}
+
+#headerimg {
     height: 400px;
     width: 100%;
 }
