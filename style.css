@@ -259,19 +259,6 @@ h2{
     *display: inline;
     zoom: 1;
 }
-.images img{
-    float: left;
-    background-color: #fff;
-    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
-    padding: 10px;
-    border: 1px solid lightgrey;
-    width: 210px;
-    height: 210px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 20px;
-    position: relative;
-}
 
 .stretch {
     width: 100%;
