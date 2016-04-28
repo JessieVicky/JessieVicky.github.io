@@ -231,7 +231,6 @@ h2{
     width: auto;
     height: auto;
     background: #fff;
-    padding-top: 70px;
     padding-bottom: 70px;
 
 }
@@ -241,7 +240,7 @@ h2{
     margin-top:90px;
     margin-left: auto;
     margin-right: auto;
-
+    border: 3px solid darkblue;
      text-align: justify;
     -ms-text-justify: distribute;
     text-justify: distribute;
