@@ -257,6 +257,8 @@ h2{
     border: 10px solid #fff;
     width: 210px;
     height: 210px;
+    margin: 5px;
+    margin-bottom: 10px;
     position: relative;
 }
 
