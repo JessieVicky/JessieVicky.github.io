@@ -228,7 +228,7 @@ h2{
 
 /* ####################### GALLERYDOOR ####################### */
 #gallerydoor {
-    border: 3px solid;
+    border: 3px solid transparent;
     width: auto;
     height: auto;
     background: #f7ffe6;
