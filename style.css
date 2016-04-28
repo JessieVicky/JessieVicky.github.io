@@ -359,7 +359,8 @@ h2{
 /* ###################### FOOTER ###################### */
 #footer{
     margin-top: 20px;
-    height:250px;
-    background-color: #f2f2f2;
+    height:150px;
+    background-color: black;
+    color:#fff;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
