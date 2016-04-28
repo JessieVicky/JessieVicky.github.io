@@ -220,7 +220,7 @@ h2{
 
 #bo img{
     float: right;
-    margin-right: 40px;
+    margin-right: 50px;
     height: 250px;
     width: 250px;
 }
@@ -232,6 +232,7 @@ h2{
     height: auto;
     background: #fff;
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .images{
