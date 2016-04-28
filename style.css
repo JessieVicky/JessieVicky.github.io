@@ -294,6 +294,8 @@ h2{
 .da-thumbs li div img {
 	display: block;
 	position: relative;
+    height: 180px;
+    width: 210px;
 }
 .da-thumbs li div {
 	overflow: hidden;
