@@ -105,12 +105,10 @@ li a.overline:hover:before {
 }
 
 #wrapper h3{
-    font-size: 20px;
+    font-size: 50px;
     color: black;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    left: 45%;
 }
 /* ####################### KEYWORDS ####################### */
 
