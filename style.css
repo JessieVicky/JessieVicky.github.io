@@ -201,6 +201,9 @@ h2{
     margin-right: 60px;
     height: 250px;
     width: 250px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid lightgrey;
 }
 
 #mh p{
@@ -223,6 +226,9 @@ h2{
     margin-right: 82px;
     height: 250px;
     width: 250px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid lightgrey;
 }
 
 
@@ -256,7 +262,7 @@ h2{
     float: left;
     background-color: #fff;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid lightgrey;
     width: 210px;
     height: 210px;
