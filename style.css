@@ -365,3 +365,7 @@ h2{
     color:#fff;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
+
+#footer p{
+    margin: 5px;
+}
