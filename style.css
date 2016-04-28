@@ -104,11 +104,14 @@ li a.overline:hover:before {
 
 }
 
+#wrapper .rubrik{
+    left: 400px;
+}
 #wrapper h3{
     font-size: 50px;
     color: black;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
-    left: 400px;
+
 }
 /* ####################### KEYWORDS ####################### */
 
