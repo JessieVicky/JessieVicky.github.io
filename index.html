@@ -17,48 +17,6 @@
         }, 500);
     }));
 </script>
-<script>
-    $(document).on( 'mouseenter.hoverdir, mouseleave.hoverdir','.img', (function( event ) {
-
-	var $el = $( this ),
-		$hoverElem = $el.find( 'div' ),
-		direction = self._getDir( $el, { x : event.pageX, y : event.pageY } ),
-		styleCSS = self._getStyle( direction );
-
-	if( event.type === 'mouseenter' ) {
-
-		$hoverElem.hide().css( styleCSS.from );
-		clearTimeout( self.tmhover );
-
-		self.tmhover = setTimeout( function() {
-
-			$hoverElem.show( 0, function() {
-
-				var $el = $( this );
-				if( self.support ) {
-					$el.css( 'transition', self.transitionProp );
-				}
-				self._applyAnimation( $el, styleCSS.to, self.options.speed );
-
-			} );
-
-
-		}, self.options.hoverDelay );
-
-	}
-	else {
-
-		if( self.support ) {
-			$hoverElem.css( 'transition', self.transitionProp );
-		}
-		clearTimeout( self.tmhover );
-		self._applyAnimation( $hoverElem, styleCSS.from, self.options.speed );
-
-	}
-
-} ));
-
-</script>
 <nav>
     <div class="navborder">
         <ul>
@@ -103,23 +61,14 @@
             <span class="stretch"></span>
         </div>
 
-        <ul id="da-thumbs" class="da-thumbs">
-            <li>
-                <div class="img"><img src="bg1.jpg" /><div>
-                    <span>text</span></div>
-                </div>
-            </li>
-            <li>
-                <div class="img"><img src="bg2.jpg" /><div>
-                    <span>text</span></div>
-                </div>
-            </li>
-            <li>
-                <div class="img"><img src="bg1.jpg" /><div>
-                    <span>text</span></div>
-                </div>
-            </li>
-        </ul>
+        <div class="view">
+            <img src="bg1.jpg" />
+            <div class="mask">
+                <h2>Title</h2>
+                <p>Your Text</p>
+
+            </div>
+        </div>
     </div>
 </div>
 
