@@ -213,7 +213,7 @@ h2{
 #bo p{
     padding-top: 3%;
     float: left;
-    width: 675px;
+    width: 670px;
     height: 200px;
     text-align: justify;
 }
@@ -228,11 +228,19 @@ h2{
 
 /* ####################### GALLERYDOOR ####################### */
 #gallerydoor {
-    width: auto;
+    width: 500px;
     height: auto;
     background: #fff;
     padding-top: 70px;
     padding-bottom: 70px;
+
+    margin-top:90px;
+    margin-left: auto;
+    margin-right: auto;
+
+     text-align: justify;
+    -ms-text-justify: distribute;
+    text-justify: distribute;
 }
 
 .images{
