@@ -359,13 +359,13 @@ h2{
 /* ###################### FOOTER ###################### */
 #footer{
     margin-top: 100px;
-    height:150px;
+    height:300px;
     background-color: darkslategrey;
-    border-top: 20px solid lightgrey;
     color:#fff;
-    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-family: "Apple Symbols", Helvetica, Arial, sans-serif;
 }
 
 #footer p{
-    margin: 5px;
+    margin-left: 400px;
 }
