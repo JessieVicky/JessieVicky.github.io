@@ -18,7 +18,7 @@
     }));
 </script>
 <script>
-    this.$el.on( 'mouseenter.hoverdir, mouseleave.hoverdir', function( event ) {
+    $(document).on( 'mouseenter.hoverdir, mouseleave.hoverdir','.img', function( event ) {
 
 	var $el = $( this ),
 		$hoverElem = $el.find( 'div' ),
