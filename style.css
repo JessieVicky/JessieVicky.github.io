@@ -254,8 +254,10 @@ h2{
 }
 .images img{
     float: left;
+    background-color: #fff;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
     padding: 3px;
+    border: 1px solid darkgrey;
     width: 210px;
     height: 210px;
     margin-left: 5px;
