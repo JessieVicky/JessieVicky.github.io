@@ -360,7 +360,8 @@ h2{
 #footer{
     margin-top: 20px;
     height:150px;
-    background-color: black;
+    background-color: darkslategrey;
+    margin-top: 4px solid lightgray;
     color:#fff;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
