@@ -213,14 +213,14 @@ h2{
 #bo p{
     padding-top: 3%;
     float: left;
-    width: 700px;
+    width: 675px;
     height: 200px;
     text-align: justify;
 }
 
 #bo img{
     float: right;
-    margin-right: 70px;
+    margin-right: 80px;
     height: 250px;
     width: 250px;
 }
