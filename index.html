@@ -7,16 +7,16 @@
 </head>
 <body>
 <script src="jquery-min.js"></script>
-    <script>
-        $(document).on('click','.overline', (function(event) {
-            event.preventDefault();
-            event.stopPropagation();
-            var target = "#" + this.getAttribute('data-target');
-            $('html, body').animate({
-                scrollTop: $(target).offset().top
-            }, 500);
-        }));
-    </script>
+<script>
+    $(document).on('click','.overline', (function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        var target = "#" + this.getAttribute('data-target');
+        $('html, body').animate({
+            scrollTop: $(target).offset().top
+        }, 500);
+    }));
+</script>
 <nav>
     <div class="navborder">
         <ul>
@@ -51,7 +51,18 @@
         </div>
     </div>
 
-    <div id="gallerydoor" data-target="gallerydoor"></div>
+    <div id="gallerydoor" data-target="gallerydoor">
+        <div class="gallery">
+            <div class="img1"><img class="glry" src="cat.jpg" alt="exempel"><h2>förklaring</h2></div>
+            <div class="img2"><h2>förklaring</h2></div>
+            <div class="img3"><h2>förklaring</h2></div>
+            <div class="img4"><h2>förklaring</h2></div>
+            <div class="img5"><h2>förklaring</h2></div>
+            <div class="img6"><h2>förklaring</h2></div>
+            <div class="img7"><h2>förklaring</h2></div>
+            <div class="img8"><h2>förklaring</h2></div>
+        </div>
+    </div>
 </div>
 
 </body>
