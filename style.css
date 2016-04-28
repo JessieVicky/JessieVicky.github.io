@@ -260,7 +260,7 @@ h2{
     height: 210px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -268,5 +268,5 @@ h2{
     width: 100%;
     display: inline-block;
     font-size: 0;
-    line-height: 0
+    line-height: 0;
 }
