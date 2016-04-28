@@ -255,7 +255,7 @@ h2{
 .images img{
     float: left;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
-    border: 10px solid #fff;
+    padding: 3px;
     width: 210px;
     height: 210px;
     margin-left: 5px;
