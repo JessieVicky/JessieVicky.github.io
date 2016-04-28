@@ -230,7 +230,7 @@ h2{
 #gallerydoor {
     width: auto;
     height: auto;
-    background: #fff;
+    background: #f7ffe6;
     padding-bottom: 70px;
 
 }
@@ -255,6 +255,7 @@ h2{
 .images img{
     float: left;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
+    border: 10px solid #fff;
     width: 210px;
     height: 210px;
     margin: 10px;
