@@ -247,6 +247,7 @@ h2{
 
 .images div{
     vertical-align: top;
+    margin-bottom: 50px;
     display: inline-block;
     *display: inline;
     zoom: 1;
