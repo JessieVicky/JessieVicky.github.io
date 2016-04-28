@@ -104,6 +104,13 @@ li a.overline:hover:before {
 
 }
 
+h3{
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
 /* ####################### KEYWORDS ####################### */
 
 #keywords {
@@ -147,7 +154,7 @@ h1{
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 h2{
