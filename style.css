@@ -226,4 +226,24 @@ h2{
 }
 
 
-/* ####################### TIMELINE ####################### */
+/* ####################### GALLERYDOOR ####################### */
+#gallerydoor {
+    width: auto;
+    height: 400px;
+    background: #fff;
+    padding-top: 70px;
+}
+
+.images{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.images img{
+    float: left;
+    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
+    width: 210px;
+    height: 210px;
+    margin: 10px;
+    position: relative;
+}
