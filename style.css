@@ -94,7 +94,6 @@ li a:hover{
     width: auto;
     height: 700px;
     background: #fff;
-    padding-top: 5px;
 }
 
 .boxes{
@@ -140,7 +139,7 @@ h2{
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 0px;
+    margin: 0;
     padding: 10px;
     color: #000000;
     opacity:0;
@@ -172,6 +171,7 @@ h2{
 }
 
 #blodtappen{
+    margin-top:-20px;
     margin-left: 130px;
     margin-right: 130px;
 }
