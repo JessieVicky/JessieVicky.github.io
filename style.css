@@ -19,8 +19,6 @@ nav{
 nav .navborder{
     border-bottom: 3px solid #DE3163;
     height: 80px;
-    top: 50%;
-    transform: translate(0, -50%);
 }
 
 nav ul {
@@ -28,6 +26,7 @@ nav ul {
     margin-top: -2px;
     padding:0;
     margin-right: 150px;
+    top:10px;
 }
 
 nav ul li {
