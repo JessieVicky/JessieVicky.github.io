@@ -193,18 +193,16 @@ h2{
 
 #mh p{
     padding-top: 3%;
-    width: 965px;
+    width: 955px;
     height: 200px;
     text-align: justify;
-    padding-right: 40px;
 }
 
 #bo p{
     padding-top: 3%;
     margin-left:40px;
-    padding-right:5px;
     float: left;
-    width: 620px;
+    width: 610px;
     height: 200px;
     text-align: justify;
 }
