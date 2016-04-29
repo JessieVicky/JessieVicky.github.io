@@ -32,7 +32,7 @@ nav ul li {
     list-style: none;
     float: right;
     text-align: center;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 
@@ -81,6 +81,10 @@ li a:hover{
     color: darkgray;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 
+}
+
+#wrapper h3.word2space{
+    margin-left: 3px;
 }
 /* ####################### KEYWORDS ####################### */
 
