@@ -183,7 +183,7 @@ h2{
 
 #mh img{
     float: left;
-    margin-right: 70px;
+    margin-right: 60px;
     height: 250px;
     width: 250px;
     background-color: #fff;
@@ -209,7 +209,7 @@ h2{
 
 #bo img{
     float: right;
-    margin-right: 92px;
+    margin-right: 94px;
     height: 250px;
     width: 250px;
     background-color: #fff;
@@ -229,7 +229,7 @@ h2{
 }
 
 .images{
-    width: 1205px;
+    width: 1305px;
     margin-top:70px;
     margin-left: 120px;
     margin-right: 120px;
