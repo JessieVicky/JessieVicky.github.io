@@ -105,7 +105,7 @@ li a.overline:hover:before {
 }
 
 #wrapper .rubrik{
-    left: 400px;
+    margin-left: 400px;
 }
 #wrapper h3{
     font-size: 50px;
@@ -117,7 +117,7 @@ li a.overline:hover:before {
 
 #keywords {
     width: auto;
-    height: auto;
+    height: 700px;
     background: #fff;
     padding-top: 5px;
 }
