@@ -176,7 +176,7 @@ h2{
     margin-right: 130px;
 }
 
-#projekt div p{
+#projekt div div img p{
     color: #333333;
 }
 
@@ -356,6 +356,6 @@ h2{
 }
 
 #footer p{
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
