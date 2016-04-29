@@ -209,6 +209,7 @@ h2{
     color: #4d4d4d;
 }
 
+/* OBS!!!!! Denna bilds placering följer skärmens bredd*/
 #bo img{
     float: right;
     margin-right: 94px;
