@@ -193,7 +193,7 @@ h2{
 
 #mh p{
     padding-top: 3%;
-    width: 900px;
+    width: 905px;
     height: 200px;
     text-align: justify;
 }
@@ -202,7 +202,7 @@ h2{
     padding-top: 3%;
     margin-left:40px;
     float: left;
-    width: 600px;
+    width: 595px;
     height: 200px;
     text-align: justify;
 }
@@ -255,7 +255,7 @@ h2{
 .view {
     width: 280px;
     height: 200px;
-    margin: 15px;
+    margin: 14px;
     float: left;
     border: 10px solid #fff;
     overflow: hidden;
