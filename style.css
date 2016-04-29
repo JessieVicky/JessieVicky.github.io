@@ -176,9 +176,6 @@ h2{
     margin-right: 130px;
 }
 
-.p1text{
-    color: #333333;
-}
 
 #mh{
     margin-bottom: 65px;
@@ -220,6 +217,9 @@ h2{
     border: 1px solid lightgrey;
 }
 
+img p.p1text{
+    color: #333333;
+}
 
 /* ####################### GALLERYDOOR ####################### */
 #gallerydoor {
