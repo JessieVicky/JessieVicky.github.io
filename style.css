@@ -64,6 +64,10 @@ li#logo a{
     margin-left: 140px;
 }
 
+li#logo a:hover{
+    cursor: default;
+}
+
 li a:hover{
     color: #ff5c33;
 }
