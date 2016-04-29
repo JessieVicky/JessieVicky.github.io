@@ -82,7 +82,7 @@ li a.overline:before {
      z-index: -1;
      left: 0;
      right: 0;
-     top: 0;
+     top: -5px;
      background-color: #2980b9;
      height: 5px;
      -webkit-transform: translateY(-4px);
