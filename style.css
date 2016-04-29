@@ -23,10 +23,9 @@ nav .navborder{
 
 nav ul {
     overflow: hidden;
-    margin-top: -2px;
     padding:0;
     margin-right: 150px;
-    margin-top:20px;
+    margin-top:25px;
 }
 
 nav ul li {
@@ -99,6 +98,7 @@ li a:hover{
 
 .box1, .box2, .box3{
     float: left;
+    font-size: 17px;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
     width: 310px;
     height: 310px;
