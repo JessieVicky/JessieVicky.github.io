@@ -98,7 +98,6 @@ li a:hover{
 }
 
 .boxes{
-    width: 1205px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -112,11 +111,6 @@ li a:hover{
     height: 310px;
     margin: 10px;
     position: relative;
-    vertical-align: top;
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-
 }
 
 .box1{
