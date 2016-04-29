@@ -222,7 +222,7 @@ h2{
 #gallerydoor {
     border: 3px solid transparent;
     width: auto;
-    height: 700px;
+    height: 750px;
     background: #fff;
     padding-bottom: 70px;
 
@@ -233,7 +233,6 @@ h2{
     margin-top:100px;
     margin-left: 120px;
     margin-right: 120px;
-    padding-bottom: 130px;
     text-align: justify;
     -ms-text-justify: distribute;
     text-justify: distribute;
