@@ -26,7 +26,7 @@ nav ul {
     margin-top: -2px;
     padding:0;
     margin-right: 150px;
-    margin-top:15px;
+    margin-top:20px;
 }
 
 nav ul li {
@@ -65,39 +65,9 @@ li#logo a{
     margin-left: 140px;
 }
 
-
-li a.overline {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    position: relative;
-    overflow: hidden;
+li a:hover{
+    color: #ff5c33;
 }
-
-li a.overline:before {
-     content: "";
-     position: absolute;
-     z-index: -1;
-     left: 0;
-     right: 0;
-     top: -3px;
-     background-color: #2980b9;
-     height: 5px;
-     -webkit-transform: translateY(-4px);
-     transform: translateY(-4px);
-     -webkit-transition-property: transform;
-     transition-property: transform;
-     -webkit-transition-duration: 0.3s;
-     transition-duration: 0.3s;
-     -webkit-transition-timing-function: ease-out;
-     transition-timing-function: ease-out;
- }
-li a.overline:hover:before {
-     -webkit-transform: translateY(0px);
-     transform: translateY(0px);
- }
 
 /* ####################### MAIN ####################### */
 #main{
