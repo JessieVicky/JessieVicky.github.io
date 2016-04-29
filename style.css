@@ -117,7 +117,7 @@ li a.overline:hover:before {
 
 #keywords {
     width: auto;
-    height: 400px;
+    height: auto;
     background: #fff;
     padding-top: 5px;
 }
