@@ -39,9 +39,8 @@ nav ul li {
 
 li a {
     display:block;
-    max-width: 100%;
     min-width:140px;
-    max-height: 80px;
+    min-height: 80px;
     height: 50px;
     text-align: center;
     line-height: 50px;
