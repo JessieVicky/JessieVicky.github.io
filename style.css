@@ -6,6 +6,10 @@ body{
 }
 
 #headerimg {
+    max-width:50%;
+    min-width:1000px;
+    max-height:500px;
+    min-height:21%;
     height: 500px;
     width: 100%;
 }
