@@ -32,7 +32,7 @@ nav ul {
     margin-top:25px;
 }
 nav ul div.tags{
-    left: 500px;
+    min-width: 500px;
 }
 
 nav ul li {
