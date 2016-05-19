@@ -186,7 +186,7 @@ h2{
     max-height:500px;
     min-height:21%;
     margin-top:-10px;
-    margin-left: 140px;
+    margin-left: 150px;
     margin-right: 140px;
 }
 
@@ -222,7 +222,6 @@ h2{
     color: #4d4d4d;
 }
 
-/* OBS!!!!! Denna bilds placering följer skärmens bredd*/
 #bo img{
     float: right;
     margin-right: 80px;
