@@ -9,7 +9,7 @@ body{
     background-image:url("bg3.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-width:1024px;
+    max-width:80%;
     min-height:500px;
 }
 
