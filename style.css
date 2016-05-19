@@ -6,6 +6,8 @@ body{
 }
 
 #headerimg {
+    background-image:url("bg3.jpg");
+
     background-attachment: fixed;
     max-width:100%;
     min-width:1024px;
