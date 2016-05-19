@@ -81,7 +81,7 @@ li a:hover{
 
 #wrapper .rubrik{
     padding-top: 40px;
-    margin-left: 130px;
+    margin-left: 140px;
     padding-bottom: 40px;
 }
 #wrapper h3{
@@ -108,7 +108,7 @@ li a:hover{
     max-height:500px;
     min-height:21%;
     margin-left: 120px;
-    margin-right: 120px;
+    margin-right: 140px;
 }
 
 .box1, .box2, .box3{
@@ -186,7 +186,7 @@ h2{
     max-height:500px;
     min-height:21%;
     margin-top:-10px;
-    margin-left: 130px;
+    margin-left: 140px;
     margin-right: 130px;
 }
 
@@ -247,7 +247,7 @@ h2{
 .images{
     width: 1225px;
     margin-top:100px;
-    margin-left: 120px;
+    margin-left: 140px;
     margin-right: 120px;
     text-align: justify;
     -ms-text-justify: distribute;
