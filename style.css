@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     max-width:100%;
+    min-width:1024px;
     min-height:500px;
 }
 
