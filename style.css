@@ -40,8 +40,7 @@ nav ul li {
 li a {
     display:block;
     min-width:140px;
-    min-height: 50px;
-    height: 50px;
+    min-height: 80px;
     text-align: center;
     line-height: 50px;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
