@@ -101,8 +101,7 @@ li a:hover{
 }
 
 .boxes{
-    position: fixed;
-    top: 500px;
+    margin-top: 500px;
     margin-left: 120px;
     margin-right: 120px;
 }
