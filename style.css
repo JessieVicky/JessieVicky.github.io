@@ -216,7 +216,7 @@ h2{
 #bo p{
     padding-top: 3%;
     float: left;
-    width: 610px;
+    width: 615px;
     height: 200px;
     text-align: justify;
     color: #4d4d4d;
@@ -224,7 +224,7 @@ h2{
 
 #bo img{
     float: right;
-    margin-right: 80px;
+    margin-right: 50px;
     height: 250px;
     width: 250px;
     background-color: #fff;
