@@ -60,7 +60,6 @@ nav ul li a#dropdown{
 }
 
 nav ul li div.dropdown-content {
-    display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -69,6 +68,7 @@ nav ul li div.dropdown-content {
 }
 
 a#dropdown:hover div.dropdown-content {
+    background-color: #DE3163;
     display: block;
 }
 
