@@ -67,7 +67,7 @@ nav ul li div.dropdown-content {
     padding: 12px 16px;
 }
 
-nav ul li div.dropdown:hover nav ul li div.dropdown-content {
+div.dropdown:hover div.dropdown-content {
     display: block;
 }
 
