@@ -24,10 +24,6 @@ nav .navborder{
 }
 
 nav ul {
-    max-width:100%;
-    min-width:500px;
-    max-height:500px;
-    min-height:21%;
     overflow: hidden;
     padding:0;
     margin-right: 150px;
@@ -45,7 +41,10 @@ nav ul li {
 li a {
     display:block;
     float:right;
-    min-width:500px;
+    max-width:100%;
+    max-height:500px;
+    min-height:21%;
+    min-width:140px;
     height: 50px;
     text-align: center;
     line-height: 50px;
