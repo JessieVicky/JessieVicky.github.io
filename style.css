@@ -179,6 +179,10 @@ h2{
 }
 
 #blodtappen{
+    max-width:50%;
+    min-width:1000px;
+    max-height:500px;
+    min-height:21%;
     margin-top:-10px;
     margin-left: 130px;
     margin-right: 130px;
