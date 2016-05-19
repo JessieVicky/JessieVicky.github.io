@@ -6,7 +6,7 @@ body{
 }
 
 #headerimg {
-    background-attachment: fixed;
+    position: fixed;
     max-width:100%;
     min-width:1024px;
     min-height:500px;
@@ -76,11 +76,10 @@ li a:hover{
 }
 
 /* ####################### MAIN ####################### */
-#main{
 
-}
 
 #wrapper .rubrik{
+    position: relative;
     padding-top: 40px;
     margin-left: 140px;
     padding-bottom: 40px;
