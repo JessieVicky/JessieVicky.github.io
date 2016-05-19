@@ -22,6 +22,10 @@ nav .navborder{
 }
 
 nav ul {
+    max-width:50%;
+    min-width:1000px;
+    max-height:500px;
+    min-height:21%;
     overflow: hidden;
     padding:0;
     margin-right: 150px;
