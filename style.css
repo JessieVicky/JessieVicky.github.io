@@ -69,6 +69,8 @@ nav ul li a div.dropdown-content {
 }
 
 nav ul li a div.dropdown-content p{
+    margin: 0;
+    position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
