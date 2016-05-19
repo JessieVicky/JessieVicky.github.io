@@ -65,7 +65,7 @@ nav ul li a div.dropdown-content {
     min-width: 120px;
     height: 30px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
+    padding: 12px 4px;
 }
 
 a#dropdown:hover > div.dropdown-content{
