@@ -31,6 +31,9 @@ nav ul {
     margin-right: 150px;
     margin-top:25px;
 }
+nav ul div.tags{
+    min-width: 500px;
+}
 
 nav ul li {
     list-style: none;
