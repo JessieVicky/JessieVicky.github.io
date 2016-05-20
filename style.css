@@ -274,7 +274,7 @@ div h4{
 }
 
 .members{
-    margin-left: 130px;
+    left: 130px;
 
 }
 
@@ -283,8 +283,8 @@ div h4{
 }
 
 .presidente{
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
 }
 
 
