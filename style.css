@@ -222,7 +222,7 @@ h2{
     max-height:500px;
     min-height:21%;
     margin-top:-10px;
-    margin-left: 130px;
+    margin-left: 140px;
     margin-right: 140px;
 }
 
@@ -268,23 +268,63 @@ h2{
     border: 1px solid lightgrey;
 }
 /* ####################### CONTACT ####################### */
+#contact{
+    width: auto;
+    height: 800px;
+    padding-bottom: 20px;
+    background: #fff;
+}
+
 div h4{
-    font-size: 14px;
+    font-size: 24px;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
 
-.members{
-    left: 130px;
 
+.linkoping{
+    margin-top: -20px;
+}
+.linkoping, .norrkoping{
+    max-width:50%;
+    min-width:1000px;
+    max-height:500px;
+    min-height:21%;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-bottom: 55px;
 }
 
-.president{
+.members{
+    max-width:50%;
+    min-width:1000px;
+    max-height:100px;
+    min-height:21%;
+    margin-left: -10px;
+}
 
+.members img{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #f2f2f2;
+}
+
+.members p{
+    position: center;
+    width: 150px;
+    max-height: 110px;
+    overflow: hidden;
+}
+.m1, .m2, .m3{
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    margin: 10px;
+    position: relative;
 }
 
 .presidente{
-    width: 100px;
-    height: 100px;
 }
 
 
@@ -343,8 +383,10 @@ div h4{
     left: 0
 }
 .view img {
+    max-width: 100%;
+    min-height: 100%;
     display: block;
-    position: relative
+    position: relative;
 }
 .view h2 {
     text-transform: uppercase;
