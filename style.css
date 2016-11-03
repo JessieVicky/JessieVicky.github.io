@@ -111,6 +111,10 @@ li a:hover{
     color: #ff5c33;
 }
 
+nav span.linkan{
+    margin-top: -5px;
+}
+
 /* ####################### MAIN ####################### */
 
 #wrapper{
