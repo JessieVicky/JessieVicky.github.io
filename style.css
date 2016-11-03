@@ -77,6 +77,9 @@ nav ul li a div.dropdown-content p{
     transform: translate(-50%, -50%);
 }
 
+nav ul li a span.wordspace2{
+    margin-left: 20px;
+}
 
 a#dropdown:hover > div.dropdown-content{
     display: block;
