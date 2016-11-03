@@ -257,15 +257,15 @@ h2{
 .view {
     width: 280px;
     height: 280px;
-    margin: 14px;
+    /*margin: 14px;*/
     float: left;
-    border: 10px solid #fff;
+    /*border: 10px solid #fff;*/
     overflow: hidden;
     position: relative;
     text-align: center;
-    box-shadow: 2px 2px 3px #e6e6e6;
+    /*box-shadow: 2px 2px 3px #e6e6e6;*/
     cursor: default;
-    background: #fff url(bg2.jpg) no-repeat center center
+    /*background: #fff url(bg2.jpg) no-repeat center center*/
 }
 .view .mask, .view .content {
     width: 300px;
