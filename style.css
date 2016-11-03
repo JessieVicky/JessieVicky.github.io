@@ -251,7 +251,8 @@ h2{
 }
 
 .images div{
-    vertical-align: top;
+    float: left;
+    position: relative;
     display: inline-block;
     *display: inline;
     zoom: 1;
