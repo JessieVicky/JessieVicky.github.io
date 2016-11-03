@@ -78,7 +78,7 @@ nav ul li a div.dropdown-content p{
 }
 
 .tags li a span.word2space{
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 a#dropdown:hover > div.dropdown-content{
@@ -142,7 +142,7 @@ li a:hover{
 #keywords {
     width: auto;
     min-height: 100px;
-    overflow: auto;
+    overflow: hidden;
     padding-bottom: 20px;
     background: #fff;
 }
@@ -456,7 +456,8 @@ div h4{
 /* ###################### FOOTER ###################### */
 #footer{
     margin-top: 100px;
-    height:300px;
+    min-height:50px;
+    overflow: hidden;
     background-color: #262626;
     color:#fff;
     font-size: 13px;
