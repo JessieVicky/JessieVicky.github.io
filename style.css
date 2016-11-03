@@ -111,7 +111,7 @@ li a:hover{
     color: #ff5c33;
 }
 
-nav span.linkan{
+li#logo img a span.linkan{
     margin-left: 5px;
     margin-top: -20px;
 }
