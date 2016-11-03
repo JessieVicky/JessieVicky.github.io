@@ -139,7 +139,8 @@ li a:hover{
 #keywords {
     width: auto;
     min-height: 100px;
-    overflow: hidden;
+    overflow: auto;
+    margin-bottom: 20px;
     background: #fff;
 }
 
@@ -276,7 +277,8 @@ h2{
 /* ####################### CONTACT ####################### */
 #contact{
     width: auto;
-    height: 800px;
+    min-height: 100px;
+    overflow: hidden;
     padding-bottom: 20px;
     background: #fff;
 }
@@ -338,7 +340,9 @@ div h4{
 #gallerydoor {
     border: 3px solid transparent;
     width: auto;
-    height: 900px;
+    min-height: 100px;
+    overflow: hidden;
+    margin-bottom: 20px;
     background: #f2f2f2;
 }
 
