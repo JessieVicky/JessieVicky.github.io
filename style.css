@@ -77,7 +77,7 @@ nav ul li a div.dropdown-content p{
     transform: translate(-50%, -50%);
 }
 
-nav ul li a span.wordspace2{
+nav ul li a span.word2space{
     margin-left: 20px;
 }
 
@@ -143,7 +143,7 @@ li a:hover{
     width: auto;
     min-height: 100px;
     overflow: auto;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     background: #fff;
 }
 
@@ -345,7 +345,7 @@ div h4{
     width: auto;
     min-height: 100px;
     overflow: hidden;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     background: #f2f2f2;
 }
 
