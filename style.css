@@ -139,6 +139,7 @@ li a:hover{
 #keywords {
     width: auto;
     min-height: 100px;
+    overflow: hidden;
     background: #fff;
 }
 
