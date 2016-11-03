@@ -130,6 +130,10 @@ li a:hover{
 #wrapper h3 span.word2space{
     margin-left: 20px;
 }
+
+#wrapper h1 span.word2space{
+    margin-left: 20px;
+}
 /* ####################### KEYWORDS ####################### */
 
 #keywords {
