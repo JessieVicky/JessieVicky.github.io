@@ -43,7 +43,7 @@ nav ul li {
 }
 
 .tags li{
-    margin-left: 10px;
+    margin-left: 
 }
 
 li a {
@@ -171,6 +171,7 @@ li#logo a img span.linkan{
     width: 310px;
     height: 310px;
     margin: 10px;
+    position: relative;
 }
 
 .box1 img, .box2 img, .box3 img{
