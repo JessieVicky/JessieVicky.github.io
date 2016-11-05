@@ -17,7 +17,6 @@ body{
 /* ####################### NAVBAR ####################### */
 nav{
     width: 100%;
-    position: fixed;
     /*background: #fff;*/
 }
 
@@ -172,7 +171,6 @@ li#logo a img span.linkan{
     width: 310px;
     height: 310px;
     margin: 10px;
-    position: fixed;
 }
 
 .box1 img, .box2 img, .box3 img{
