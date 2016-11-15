@@ -229,7 +229,7 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-h2{
+.box1 h2, .box2 h2, .box3 h2{
     font-size: 15px;
     position: absolute;
     top: 0;
