@@ -141,8 +141,8 @@ li a:hover{
 }
 
 li#logo a img span.linkan{
-    margin-left: 5px;
-    margin-top: -20px;
+    padding-left: 5px;
+    padding-top: -20px;
 }
 
 /* ####################### MAIN ####################### */
