@@ -55,8 +55,9 @@ nav .navborder{
 }
 
 #logo a span.linkan{
+    font-size: 18px;
     margin-left: 10px;
-    margin-top: -100px;
+    margin-top: -300px;
 }
 
 nav ul {
@@ -145,10 +146,6 @@ li#logo a:hover{
     color: #262626;
 }
 
-/*#logo a span.linkan:hover{
-    color:#DE3163;
-}
-*/
 /* ####################### MAIN ####################### */
 
 #wrapper{
