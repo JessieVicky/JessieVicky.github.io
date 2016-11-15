@@ -3,6 +3,16 @@
     box-sizing: border-box;
 }
 
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -227,7 +237,7 @@ h2{
     right: 0;
     bottom: 0;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     color: #333333;
     opacity:0;
     text-align: justify;
