@@ -54,11 +54,11 @@ nav .navborder{
     height: 80px;
 }
 
-.linkan{
+div.linkan{
     position: relative;
     font-size: 18px;
-    margin-left: 50px;
-    top: -60px;
+    margin-left: 150px;
+    top: -70px;
 }
 
 nav ul {
