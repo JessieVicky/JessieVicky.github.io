@@ -192,7 +192,7 @@ li#logo a:hover{
     margin-right: 140px;
 }
 
-.box1, .box2, .box3{
+.box1, .box2, .box3, .box4{
     float: left;
     font-size: 14px;
     width: 310px;
@@ -201,7 +201,7 @@ li#logo a:hover{
     position: relative;
 }
 
-.box1 img, .box2 img, .box3 img{
+.box1 img, .box2 img, .box3 img, .box4 img{
     width: 100%;
     height: 100%;
     display: block;
@@ -220,6 +220,10 @@ li#logo a:hover{
     background: #D91B5C;
 }
 
+.box4{
+    background: #F7A81B;
+}
+
 h1{
     margin: 0;
     position: absolute;
@@ -230,7 +234,7 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-.box1 h2, .box2 h2, .box3 h2{
+.box1 h2, .box2 h2, .box3 h2, .box4 h2{
     font-size: 14px;
     position: absolute;
     top: 0;
@@ -257,7 +261,11 @@ h1{
     background: #fff;
 }
 
-.box1:hover h2, .box2:hover h2, .box3:hover h2{
+.box4 h2{
+    background: #fff;
+}
+
+.box1:hover h2, .box2:hover h2, .box3:hover h2, .box4:hover h2{
     opacity:0.9;
 }
 
