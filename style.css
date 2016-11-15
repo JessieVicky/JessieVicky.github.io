@@ -481,7 +481,7 @@ div h4{
 
 .members p{
     position: center;
-    width: 150px;
+    width: 450px;
     max-height: 110px;
     overflow: hidden;
 }
@@ -492,7 +492,7 @@ div h4{
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
     font-style: italic;
     margin-top: 60px;
-    margin-right: 100px;
+    margin-right: 1000px;
     position: relative;
 }
 
