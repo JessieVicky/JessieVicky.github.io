@@ -192,7 +192,7 @@ li#logo a:hover{
     margin-right: 140px;
 }
 
-.box1, .box2, .box3, .box4{
+.box1, .box2, .box3, .box4, .box5{
     float: left;
     font-size: 14px;
     width: 310px;
@@ -201,7 +201,7 @@ li#logo a:hover{
     position: relative;
 }
 
-.box1 img, .box2 img, .box3 img, .box4 img{
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
     width: 100%;
     height: 100%;
     display: block;
@@ -222,6 +222,10 @@ li#logo a:hover{
 
 .box4{
     background: #F7A81B;
+}
+
+.box5{
+    background: #fff;
 }
 
 h1{
