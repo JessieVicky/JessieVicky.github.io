@@ -503,11 +503,12 @@ div h4{
     background-color: #262626;
     color:#fff;
     font-size: 20px;
-    font-family: "Apple Symbols", Helvetica, Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
 
 #footer p{
     margin-left: 140px;
+    margin-top: 50px;
     padding-bottom: 50px;
 }
 
