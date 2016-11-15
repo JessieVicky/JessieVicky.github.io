@@ -499,16 +499,14 @@ div h4{
 /* ###################### FOOTER ###################### */
 #footer{
     margin-top: 50px;
-    min-height:50px;
     overflow: hidden;
     background-color: #262626;
     color:#fff;
     font-size: 13px;
     font-family: "Apple Symbols", Helvetica, Arial, sans-serif;
-    padding-top: 50px;
 }
 
 #footer p{
-    margin-left: 40%;
+    margin-left: 140px;
 }
 
