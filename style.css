@@ -57,7 +57,7 @@ nav .navborder{
 div.linkan{
     position: relative;
     font-size: 18px;
-    margin-left: 130px;
+    margin-left: 125px;
     top: -70px;
 }
 
@@ -492,7 +492,7 @@ div h4{
 
 .members p{
     position: center;
-    width: 290px;
+    width: 280px;
     max-height: 110px;
     overflow: hidden;
 }
