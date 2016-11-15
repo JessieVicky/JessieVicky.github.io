@@ -462,7 +462,9 @@ div h4{
     margin-left: 140px;
     margin-right: 140px;
 }
-
+.contact_txt{
+    font-style: italic;
+}
 .members{
     max-width:50%;
     min-width:1000px;
@@ -489,7 +491,7 @@ div h4{
     font-size: 20px;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
     font-style: italic;
-    margin-top: 30px;
+    margin-top: 60px;
     margin: 50px;
     position: relative;
 }
