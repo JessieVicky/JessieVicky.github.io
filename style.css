@@ -54,9 +54,9 @@ nav .navborder{
     height: 80px;
 }
 
-span.linkan{
+div.linkan{
+    position: relative;
     font-size: 18px;
-    display: inline-block;
     margin-left: 10px;
     top: -30px;
 }
