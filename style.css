@@ -492,7 +492,7 @@ div h4{
 
 .members p{
     position: center;
-    width: 300px;
+    width: 290px;
     max-height: 110px;
     overflow: hidden;
 }
@@ -502,7 +502,7 @@ div h4{
     font-size: 14px;
     font-family: Georgia, serif;
     margin-top: 60px;
-    margin-right: 20px;
+    margin-right: 40px;
     position: relative;
 }
 
