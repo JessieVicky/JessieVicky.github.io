@@ -54,6 +54,11 @@ nav .navborder{
     height: 80px;
 }
 
+#logo a span.linkan{
+    padding-left: 5px;
+    padding-top: -20px;
+}
+
 nav ul {
     overflow: hidden;
     padding:0;
@@ -138,11 +143,6 @@ li#logo a:hover{
 
 li a:hover{
     color: #ff5c33;
-}
-
-li#logo a img div.linkan{
-    padding-left: 5px;
-    padding-top: -20px;
 }
 
 /* ####################### MAIN ####################### */
