@@ -198,7 +198,6 @@ li#logo a img span.linkan{
     height: 310px;
     margin: 10px;
     position: relative;
-    overflow: scroll;
 }
 
 .box1 img, .box2 img, .box3 img{
@@ -242,6 +241,7 @@ h2{
     color: #333333;
     opacity:0;
     text-align: justify;
+    overflow: scroll;
     transition:1s;
 }
 
