@@ -331,7 +331,6 @@ h2{
 .view h2 {
     text-transform: uppercase;
     color: #fff;
-    text-align: left;
     position: relative;
     font-size: 17px;
     padding: 10px;
@@ -345,7 +344,7 @@ h2{
     position: relative;
     color: #fff;
     padding: 10px 20px 20px;
-    text-align: center
+    text-align: left;
 }
 
 
