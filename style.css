@@ -47,12 +47,12 @@ body{
 nav{
     width: 100%;
     background: #fff;
+    position: fixed;
 }
 
 nav .navborder{
     border-bottom: 3px solid #DE3163;
     height: 80px;
-    position: fixed;
 }
 
 nav ul {
