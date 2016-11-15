@@ -57,7 +57,7 @@ nav .navborder{
 #logo a span.linkan{
     font-size: 18px;
     margin-left: 10px;
-    margin-top: -300px;
+    padding-top: -300px;
 }
 
 nav ul {
