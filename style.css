@@ -239,7 +239,6 @@ h2{
     margin: 0;
     padding: 20px;
     color: #333333;
-    opacity:0;
     text-align: justify;
     transition:1s;
 }
