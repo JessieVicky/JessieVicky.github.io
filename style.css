@@ -87,7 +87,7 @@ li a {
     color: #DE3163;
     text-decoration: none;
 }
-
+/*
 nav ul li a#dropdown{
     display: inline-block;
 }
@@ -109,7 +109,7 @@ nav ul li a div.dropdown-content p{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-}
+}*/
 
 nav ul li a span.word2space{
     margin-left: 10px;
@@ -143,6 +143,10 @@ li#logo a:hover{
 
 li a:hover{
     color: #ff5c33;
+}
+
+#logo a span.linkan:hover{
+    color:#DE3163;
 }
 
 /* ####################### MAIN ####################### */
