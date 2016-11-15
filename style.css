@@ -50,7 +50,7 @@ nav{
 }
 
 nav .navborder{
-    border-bottom: 3px solid #DE3163;
+    border-bottom: 3px solid #D91B5C;
     height: 80px;
 }
 
@@ -86,7 +86,7 @@ li a {
     text-align: center;
     line-height: 50px;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
-    color: #DE3163;
+    color: #D91B5C;
     text-decoration: none;
 }
 /*
@@ -161,7 +161,7 @@ li#logo a:hover{
 }
 #wrapper h3{
     font-size: 30px;
-    color: #DE3163;
+    color: #D91B5C;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 
 }
@@ -209,15 +209,15 @@ li#logo a:hover{
 }
 
 .box1{
-    background: #DE3163;
+    background: #D91B5C;
 }
 
 .box2{
-    background: #DE3163;
+    background: #D91B5C;
 }
 
 .box3{
-    background: #DE3163;
+    background: #D91B5C;
 }
 
 h1{
