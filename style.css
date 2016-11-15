@@ -47,7 +47,6 @@ body{
 nav{
     width: 100%;
     background: #fff;
-    position: fixed;
 }
 
 nav .navborder{
