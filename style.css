@@ -502,11 +502,12 @@ div h4{
     overflow: hidden;
     background-color: #262626;
     color:#fff;
-    font-size: 13px;
+    font-size: 20px;
     font-family: "Apple Symbols", Helvetica, Arial, sans-serif;
 }
 
 #footer p{
     margin-left: 140px;
+    padding-bottom: 50px;
 }
 
