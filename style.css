@@ -242,7 +242,6 @@ h2{
     padding: 20px;
     padding-bottom: 20px;
     color: #333333;
-    opacity:0;
     text-align: justify;
     overflow: scroll;
     transition:1s;
