@@ -141,14 +141,14 @@ li#logo a:hover{
     cursor: default;
 }
 
-li a:hover{
+.tags li a:hover{
     color: #ff5c33;
 }
 
-#logo a span.linkan:hover{
+/*#logo a span.linkan:hover{
     color:#DE3163;
 }
-
+*/
 /* ####################### MAIN ####################### */
 
 #wrapper{
