@@ -8,6 +8,7 @@
     clear: both;
     display: block;
 }
+
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -37,7 +38,7 @@ body{
 #headerimg {
     background-image:url("img/link2.jpg");
     background-repeat: no-repeat;
-    background-size: 1024px, 700, cover;
+    background-size: 1024px, 700px, cover;
     background-attachment: fixed;
     -webkit-filter: brightness(250%);
     filter: brightness(250%);
