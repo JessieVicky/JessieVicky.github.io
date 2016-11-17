@@ -37,10 +37,10 @@ body{
 #headerimg {
     background-image:url("img/link2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1024px, 700, cover;
     background-attachment: fixed;
-    min-width:1024px;
-    min-height:700px;
+    -webkit-filter: brightness(250%);
+    filter: brightness(250%);
 }
 
 /* ####################### NAVBAR ####################### */
