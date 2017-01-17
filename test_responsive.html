@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<!--     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+ -->
+</head>
+<body>
+<script src="jquery-min.js"></script>
+<script>
+    $(document).on('click','.overline', (function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        var target = "#" + this.getAttribute('data-target');
+        $('html, body').animate({
+            scrollTop: $(target).offset().top
+        }, 500);
+    }));
+</script>
+
+<header>
+    <nav>
+        <div class="navborder">
+            <ul>
+                <li id="logo" class="active"><a href="#"><img id="headerlogo" src="Rotaract_red.jpg"><div class="linkan">Linköping</div></a></li>
+                <div class="tags">
+                    <li><a href="#" id="dropdown" class="overline" data-target="contact">K O N T A K T<!-- <div class="dropdown-content">
+                        <p>Norrköping</p></div> -->
+                    </a>
+                    </li>
+                    <li><a href="#" class="overline" data-target="gallerydoor">V A D<span class="word2space">V I</span><span class="word2space">G Ö R</span></a></li>
+                    <li><a href="#" class="overline" data-target="keywords">V I L K A<span class="word2space">V I</span><span class="word2space">Ä R</span></a></li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+</header>
+</body>
+</html>
