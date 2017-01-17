@@ -99,27 +99,19 @@ li#logo a:hover{
 
 /* ###### */
 
-#keywords{
-    background: #fff;
-    position:absolute;
-    bottom:0;
-    left:0;
-    width:100%;
+.container {
+  width: 538px;
+}
+section,
+aside {
+  margin: 10px;
+}
+section {
+  float: left;
+  width: 340px;
+}
+aside {
+  float: right;
+  width: 158px;
 }
 
-#keywords .rubrik{
-    padding-top: 40px;
-    margin-left: 140px;
-    padding-bottom: 40px;
-}
-#keywords h1{
-    font-size: 30px;
-    color: #D91B5C;
-    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
-}
-
-#keywords h1 span.word2space{
-    margin-left: 20px;
-}
-
-/* ####################### KEYWORDS ####################### */
