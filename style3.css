@@ -96,3 +96,86 @@ li#logo a:hover{
 .tags li a:hover{
     color: #262626;
 }
+
+/* ###### */
+
+#keywords{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+
+#keywords .rubrik{
+    padding-top: 40px;
+    margin-left: 140px;
+    padding-bottom: 40px;
+}
+#keywords h3{
+    font-size: 30px;
+    color: #D91B5C;
+    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
+
+}
+
+#keywords h3 span.word2space{
+    margin-left: 20px;
+}
+
+#keywords h1 span.word2space{
+    margin-left: 20px;
+}
+/* ####################### KEYWORDS ####################### */
+
+#keywords {
+    width: auto;
+    min-height: 100px;
+    overflow: hidden;
+    padding-bottom: 100px;
+    background: #fff;
+}
+
+.boxes{
+    max-width:50%;
+    min-width:1000px;
+    max-height:500px;
+    min-height:21%;
+    margin-left: 130px;
+    margin-right: 140px;
+}
+
+.box1, .box2, .box3, .box4, .box5{
+    float: left;
+    font-size: 14px;
+    width: 310px;
+    height: 310px;
+    margin: 10px;
+    position: relative;
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.box1{
+    background: #D91B5C;
+}
+
+.box2{
+    background: #D91B5C;
+}
+
+.box3{
+    background: #D91B5C;
+}
+
+.box4{
+    background: #F7A81B;
+}
+
+.box5{
+    background: #fff;
+}
