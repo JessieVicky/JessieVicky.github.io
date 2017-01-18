@@ -19,6 +19,9 @@ body{
     .content{
         width: 90%;
     }
+    .tag{
+        float: right;
+    }
     
 }
 
