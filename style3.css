@@ -6,16 +6,6 @@
         width: 65%;
     }
 
-    av{
-        width: 100%;
-        background: #fff;
-    }
-
-    nav .navborder{
-        border-bottom: 3px solid #D91B5C;
-        height: 80px;
-    }
-
     div.linkan{
         position: relative;
         font-size: 20px;
@@ -23,17 +13,17 @@
         top: -70px;
     }
 
-    nav ul {
+    ul {
         overflow: hidden;
         padding:0;
         margin-right: 150px;
         margin-top:25px;
     }
-    nav ul div.tags{
+    ul div.tags{
         min-width: 900px;
     }
 
-    nav ul li {
+    ul li {
         list-style: none;
         float: right;
         text-align: center;
@@ -51,31 +41,8 @@
         color: #D91B5C;
         text-decoration: none;
     }
-/*
-nav ul li a#dropdown{
-    display: inline-block;
-}
 
-nav ul li a div.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 120px;
-    height: 60px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-}
-
-nav ul li a div.dropdown-content p{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    }*/
-
-    nav ul li a span.word2space{
+    ul li a span.word2space{
         margin-left: 10px;
     }
 
