@@ -3,83 +3,22 @@ body{
 
 }
 
-#header ul #logo{
-    list-style: none;
-    float: left;
-    text-align: center;
-    margin-right: 10px;
-}
-
-#header ul #logo a img{
-    width: 120px;
-    height: 50px;
-}
-
-#header ul #logo a{
-    text-align: left;
-    margin-left: 140px;
-}
-
-#header ul #logo a:hover{
-    cursor: default;
-}
-
-div.linkan{
-    position: relative;
-    font-size: 20px;
-    margin-left: 125px;
-    top: -70px;
-}
-
-ul {
-    overflow: hidden;
-    padding:0;
-    margin-right: 150px;
-    margin-top:25px;
-}
-ul div.tags{
-    min-width: 900px;
-}
-
-ul li {
-    list-style: none;
-    float: right;
-    text-align: center;
-    margin-left: 20px;
-}
-
-li a {
-    display:block;
-    min-width:140px;
-    min-height: 80px;
-    text-align: center;
-    line-height: 50px;
-    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
-    color: #D91B5C;
-    text-decoration: none;
-}
-
-ul li a span.word2space{
-    margin-left: 10px;
-}
-
-a#dropdown:hover > div.dropdown-content{
-    display: block;
-}
-
-
-.tags li a:hover{
-    color: #262626;
-}
-
 @media screen and (max-width: 1020px){
     #pagewrap{
         width:94%;
     }
-    .content{
-        width: 65%;
+    #header{
+        width: 94%;
     }
-    /* Logo specific */
+    #logo{
+        width: 20%;
+    }
+    #content_tag{
+        width: 70%;
+    }
+    .content{
+        width: 90%;
+    }
     
 }
 
@@ -87,6 +26,14 @@ a#dropdown:hover > div.dropdown-content{
     .content{
         width: auto;
         float: none;
+    }
+    #logo{
+        width: auto;
+        float: none;
+    }
+    #content_tag{
+        width: auto;
+        float:none;
     }
 }
 
@@ -96,5 +43,8 @@ a#dropdown:hover > div.dropdown-content{
     }
     h1{
         font-size: 24px;
+    }
+    .content_tag{
+        display: none;
     }
 }
