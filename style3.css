@@ -9,6 +9,8 @@ body{
     }
     #header{
         width: 94%;
+        list-style: none;
+
     }
     #logo{
         width: 20%;
