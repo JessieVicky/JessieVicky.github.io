@@ -5,19 +5,21 @@ body{
 
 @media screen and (max-width: 1020px){
     #pagewrap{
-        width:84%;
+        width:94%;
     }
     #header{
-        width: 94%;
-        list-style: none;
-
+        width: 90%;
+        padding: 20px;
     }
     #logo{
         width: 20%;
         float: left;
+        margin-left: 20px;
     }
     #content_tag{
         width: 70%;
+        float:left;
+        margin-right:30px; 
     }
     .content{
         width: 90%;
