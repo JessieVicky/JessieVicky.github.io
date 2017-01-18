@@ -3,7 +3,7 @@ body{
 
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1060px){
     #pagewrap{
         width:94%;
     }
@@ -14,7 +14,7 @@ body{
     #logo{
         width: 20%;
         float: left;
-        margin-left: 20px;
+        margin-left: 50px;
     }
     #content_tag{
         width: 70%;
@@ -25,6 +25,7 @@ body{
         width: 90%;
     }
     .tag{
+        margin-left: 10px;
         float: right;
     }
     
@@ -40,8 +41,7 @@ body{
         float: none;
     }
     #content_tag{
-        width: auto;
-        float:none;
+        display: none;
     }
 }
 
