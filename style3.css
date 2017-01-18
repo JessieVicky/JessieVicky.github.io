@@ -24,11 +24,13 @@ body{
     #content_tag{
         width: 70%;
         float:left;
-        margin-right:50px; 
+        margin-right:40px; 
     }
     .tag{
         margin-left: 30px;
         float: right;
+        color: #D91B5C;
+        text-decoration: none;
     }
     .content{
         width: 90%;
