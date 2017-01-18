@@ -113,7 +113,7 @@ nav ul li a div.dropdown-content p{
     transform: translate(-50%, -50%);
 }*/
 
-nav ul li a span.word2space{
+.word2space{
     margin-left: 10px;
 }
 
