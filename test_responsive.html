@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style3.css">
 <!--     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
- -->
+-->
 </head>
 <body>
-<script src="jquery-min.js"></script>
-<script>
+    <script src="jquery-min.js"></script>
+    <script>
     $(document).on('click','.overline', (function(event) {
         event.preventDefault();
         event.stopPropagation();
@@ -18,33 +18,30 @@
             scrollTop: $(target).offset().top
         }, 500);
     }));
-</script>
-
-<header>
-    <nav>
-        <div class="navborder">
-            <ul>
-                <li id="logo" class="active"><a href="#"><img id="headerlogo" src="Rotaract_red.jpg"><div class="linkan">Linköping</div></a></li>
-                <div class="tags">
-                    <li><a href="#" id="dropdown" class="overline" data-target="contact">K O N T A K T<!-- <div class="dropdown-content">
-                        <p>Norrköping</p></div> -->
-                    </a>
-                    </li>
-                    <li><a href="#" class="overline" data-target="gallerydoor">V A D<span class="word2space">V I</span><span class="word2space">G Ö R</span></a></li>
-                    <li><a href="#" class="overline" data-target="keywords">V I L K A<span class="word2space">V I</span><span class="word2space">Ä R</span></a></li>
+    </script>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="navborder">
+                    <ul>
+                        <li id="logo" class="active"><a href="#"><img id="headerlogo" src="Rotaract_red.jpg"><div class="linkan">Linköping</div></a></li>
+                        <div class="tags">
+                            <li><a href="#" id="dropdown" class="overline" data-target="contact">K O N T A K T</a>
+                            </li>
+                            <li><a href="#" class="overline" data-target="gallerydoor">V A D<span class="word2space">V I</span><span class="word2space">G Ö R</span></a></li>
+                            <li><a href="#" class="overline" data-target="keywords">V I L K A<span class="word2space">V I</span><span class="word2space">Ä R</span></a></li>
+                        </div>
+                    </ul>
                 </div>
-            </ul>
-        </div>
-    </nav>
-</header>
+            </nav>
+        </header>
 
-<div class="container">
-    <section>
-        <h1 class="rubrik">O M<span class="word2space">R O T A R A C T</span></h1
-    </section>
-    <aside>
-    </aside>
-</div>
+        <section>
+            <h1 class="rubrik">O M<span class="word2space">R O T A R A C T</span></h1>
+        </section>
+        <aside>
+        </aside>
+    </div>
 
-</body>
-</html>
+    </body>
+    </html>
