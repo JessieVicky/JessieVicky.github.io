@@ -2,6 +2,10 @@ body{
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
 
+.tag a{
+    color: #D91B5C;
+    text-decoration: none;
+}
 .word2space{
     margin-left: 10px;
 }
@@ -22,15 +26,13 @@ body{
         margin-left: 50px;
     }
     #content_tag{
-        width: 70%;
+        width: 50%;
         float:left;
         margin-right:40px; 
     }
     .tag{
         margin-left: 30px;
         float: right;
-        color: #D91B5C;
-        text-decoration: none;
     }
     .content{
         width: 90%;
