@@ -11,10 +11,9 @@ body{
         width:94%;
     }
     #header{
-        width: 90%;
+        width: 100%;
         padding: 20px;
         border-bottom: 3px solid #D91B5C;
-
     }
     #logo{
         width: 20%;
