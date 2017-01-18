@@ -12,6 +12,7 @@ body{
     }
     #logo{
         width: 20%;
+        float: left;
     }
     #content_tag{
         width: 70%;
