@@ -19,7 +19,7 @@ a #headerlogo{
 #header{
     width: 100%;
     padding: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 65px;
     border-bottom: 3px solid #D91B5C;
 }
 @media screen and (max-width: 1800px){
@@ -58,7 +58,7 @@ a #headerlogo{
     }
 
     #header{
-        width: auto;
+        height: auto;
         float: none;
     }
     #logo{
