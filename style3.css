@@ -16,17 +16,17 @@ a #headerlogo{
     width: 120px;
     height: 50px;
 }
-
+#header{
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 60px;
+    border-bottom: 3px solid #D91B5C;
+}
 @media screen and (max-width: 1800px){
     #pagewrap{
         width:100%;
     }
-    #header{
-        width: 100%;
-        padding: 20px;
-        padding-bottom: 80px;
-        border-bottom: 3px solid #D91B5C;
-    }
+
     #logo{
         width: 20%;
         float: left;
