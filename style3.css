@@ -6,10 +6,9 @@ body{
 
 
 /* Smartphones (portrait and landscape) ———– */
-@media screen and (max-device-width : 480px) {
+@media screen and (max-width : 480px) {
     #all{
         border: 3px solid #6495ED;
-
     }
 
     #header{
@@ -24,7 +23,7 @@ body{
     }
 }
 
-@media screen and (min-device-width : 481px) and (max-device-width : 768px) {
+@media screen and (min-width : 481px) and (max-width : 768px) {
     #all{
         border: 3px solid #6495ED;
 
@@ -43,9 +42,11 @@ body{
 
 /* Desktops and laptops ———– */
 @media screen and (min-width : 769px) {
+    #body{
+        border: 1px solid #6495ED;
+    }
     #all{
         border: 3px solid #6495ED;
-
     }
 
     #header{
