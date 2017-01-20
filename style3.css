@@ -84,7 +84,16 @@ body{
         float: left;
         border: 3px solid #ffcccc;
     }
-
+    #logo{
+        width: 50%;
+        float:left;
+        border: 1px solid #000000;
+    }
+    #linkan{
+        width: 50%;
+        float: left;
+        border: 1px solid #000000;
+    }
     #tags{
         width: 50%;
         float: right;
