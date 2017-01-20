@@ -31,9 +31,10 @@ body{
         border: 1px solid #000000;
     }
     #tags{
-        width: 50%;
-        float: left;
-        border: 3px solid #99ffbb;
+        display: none;
+        /*width: 50%;
+        float: right;
+        border: 3px solid #99ffbb;*/
     }
 
     #content{
@@ -72,7 +73,7 @@ body{
     }
     #tags{
         width: 50%;
-        float:left;
+        float:right;
         border: 3px solid #99ffbb;
     }
 
