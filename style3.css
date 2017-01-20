@@ -23,7 +23,7 @@ body{
     }
 }
 
-@media screen and (min-width : 481px) and (max-width : 768px) {
+/*@media screen and (min-width : 481px) and (max-width : 768px) {
     #all{
         border: 3px solid #6495ED;
 
@@ -40,7 +40,7 @@ body{
         border: 3px solid #D91B5C;
     }}
 
-/* Desktops and laptops ———– */
+ Desktops and laptops ———– 
 @media screen and (min-width : 769px) {
     #body{
         border: 1px solid #000000;
@@ -62,3 +62,4 @@ body{
 
 }
 
+*/
