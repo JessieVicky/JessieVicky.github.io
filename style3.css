@@ -5,6 +5,61 @@ body{
 }
 
 
+/* Smartphones (portrait and landscape) ———– */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #all{
+        border: 3px solid #fff;
+
+    }
+
+    #header{
+        border: 3px solid #D91B5C;
+    }
+    #content{
+        border: 3px solid #D91B5C;
+
+    }
+    #footer{
+        border: 3px solid #D91B5C;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    #all{
+        border: 3px solid #fff;
+
+    }
+
+    #header{
+        border: 3px solid #D91B5C;
+    }
+    #content{
+        border: 3px solid #D91B5C;
+
+    }
+    #footer{
+        border: 3px solid #D91B5C;
+    }}
+
+/* Desktops and laptops ———– */
+@media only screen and (min-width : 1224px) {
+    #all{
+        border: 3px solid #fff;
+
+    }
+
+    #header{
+        border: 3px solid #D91B5C;
+    }
+    #content{
+        border: 3px solid #D91B5C;
+
+    }
+    #footer{
+        border: 3px solid #D91B5C;
+    }
+
+}
 
 
 /* HEADER STUFF */
