@@ -18,7 +18,7 @@ body{
     }
 
     #header{
-        width: 480px;
+        min-width: 480px;
         border: 3px solid #D91B5C;
     }
     #rotaract{
@@ -34,7 +34,6 @@ body{
     }
     #linkan{
         width: 230px;
-        overflow: hidden;
         float: left;
         border: 1px solid #000000;
     }
