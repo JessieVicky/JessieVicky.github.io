@@ -29,6 +29,7 @@ img#headerlogo{
     float: left;
     margin-left: 10px;
     font-size: 20px;
+    top: -70px;
 }
 
 /* Smartphones (portrait and landscape) ———– */
