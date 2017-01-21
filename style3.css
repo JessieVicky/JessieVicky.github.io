@@ -10,7 +10,7 @@ body{
 
 #header{
     color: #D91B5C;
-    margin-bottom: 20px;
+    height: 52px;
 }
 #rotaract{
     width: 380px;
@@ -31,7 +31,7 @@ img#headerlogo{
     float: left;
     margin-left: 10px;
     font-size: 20px;
-    top: 70px;
+    top: 10px;
 }
 
 /* Smartphones (portrait and landscape) ———– */
