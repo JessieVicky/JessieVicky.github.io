@@ -7,6 +7,12 @@ body{
 .word2space{
     margin-left: 10px;
 }
+
+.tag{
+    list-style: none;
+    float: right;
+    text-align: center;
+}
 /* Smartphones (portrait and landscape) ———– */
 @media screen and (max-width : 480px) {
     #all{
