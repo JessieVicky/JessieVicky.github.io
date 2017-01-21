@@ -107,7 +107,7 @@ img#headerlogo{
         border: 3px solid #99ffbb;
     }
 
-    .tag a{
+    .tag1 a, .tag2 a, .tag3 a{
         width: 10%;
         text-decoration: none;
         float: right;
