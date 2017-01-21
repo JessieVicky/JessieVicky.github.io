@@ -23,7 +23,6 @@ body{
     }
     #rotaract{
         width: 480px;
-        overflow-x: hidden; 
         float: left;
         border: 3px solid #ffcccc;
         padding-left: 20px;
@@ -35,6 +34,7 @@ body{
     }
     #linkan{
         width: 230px;
+        overflow: hidden;
         float: left;
         border: 1px solid #000000;
     }
