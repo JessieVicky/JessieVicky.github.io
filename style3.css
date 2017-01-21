@@ -108,7 +108,6 @@ img#headerlogo{
     }
 
     .tag1 a, .tag2 a, .tag3 a{
-        width: 10%;
         text-decoration: none;
         float: right;
         text-align: center;
