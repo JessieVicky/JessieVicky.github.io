@@ -35,6 +35,7 @@ img#headerlogo{
 }
 
 #tags .tag1 a, #tags .tag2 a, #tags .tag3 a{
+    position: relative;
     text-decoration: none;
     float: right;
     text-align: center;
