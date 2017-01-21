@@ -11,6 +11,7 @@ body{
 #header{
     color: #D91B5C;
     height: 52px;
+    border-bottom: 3px solid #D91B5C;
 }
 #rotaract{
     width: 280px;
@@ -47,13 +48,9 @@ img#headerlogo{
 @media screen and (max-width : 480px) {
     #all{
         min-width: 480px;
-        border: 3px solid #6495ED;
     }
 
     #header{
-        min-width: 480px;
-        min-height: 52px;
-        border: 3px solid #D91B5C;
     }
     
     #tags{
@@ -61,64 +58,51 @@ img#headerlogo{
     }
 
     #content{
-        border: 3px solid #000000;
 
     }
     #footer{
-        border: 3px solid #D91B5C;
     }
 }
 
 @media screen and (min-width : 481px) and (max-width : 768px) {
     #all{
-        border: 3px solid #6495ED;
     }
 
     #header{
         width: 100%;
-        border: 3px solid #D91B5C;
     }
     
     #tags{
-        width: 60%;
-        float:right;
-        border: 3px solid #99ffbb;
+        display: none;
     }
 
     #content{
-        border: 3px solid #000000;
 
     }
     #footer{
-        border: 3px solid #D91B5C;
     }
 }
 /* Desktops and laptops ———– */
 @media screen and (min-width : 769px) {
     #body{
-        border: 1px solid #000000;
     }
+
     #all{
-        border: 3px solid #6495ED;
     }
 
     #header{
         width: 100%;
-        border: 3px solid #D91B5C;
     }
 
     #tags{
         width: 60%;
         float: right;
-        border: 3px solid #99ffbb;
     }
 
     #content{
-        border: 3px solid #000000;
 
     }
     #footer{
-        border: 3px solid #D91B5C;
     }
 
 }
