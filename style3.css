@@ -18,22 +18,23 @@ body{
     }
 
     #header{
-        width: 100%;
+        width: 480px;
         border: 3px solid #D91B5C;
     }
     #rotaract{
-        width: 30%;
+        width: 480px;
+        overflow-x: hidden; 
         float: left;
         border: 3px solid #ffcccc;
         padding-left: 20px;
     }
     #logo{
-        width: 50%;
+        width: 230px;
         float:left;
         border: 1px solid #000000;
     }
     #linkan{
-        width: 50%;
+        width: 230px;
         float: left;
         border: 1px solid #000000;
     }
