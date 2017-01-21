@@ -14,7 +14,10 @@ body{
     border: 3px solid #ffcccc;
     padding-left: 20px;
 }
-
+img#headerlogo{
+    width: 120px;
+    height: 50px;
+}
 #logo{
     width: 230px;
     float:left;
@@ -92,7 +95,7 @@ body{
         width: 100%;
         border: 3px solid #D91B5C;
     }
-    
+
     #tags{
         width: 50%;
         float: right;
