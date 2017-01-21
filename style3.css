@@ -9,9 +9,11 @@ body{
 }
 
 .tag{
-    list-style: none;
+    width: 30%;
+    text-decoration: none;
     float: right;
     text-align: center;
+    margin-right: 20px;
 }
 /* Smartphones (portrait and landscape) ———– */
 @media screen and (max-width : 480px) {
