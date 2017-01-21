@@ -4,7 +4,9 @@ body{
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
 
-
+.word2space{
+    margin-left: 10px;
+}
 /* Smartphones (portrait and landscape) ———– */
 @media screen and (max-width : 480px) {
     #all{
