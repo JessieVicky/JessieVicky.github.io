@@ -34,6 +34,13 @@ img#headerlogo{
     top: 15px;
 }
 
+.tag1 a, .tag2 a, .tag3 a{
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    margin-right: 20px;
+    top: 15px;
+}
 /* Smartphones (portrait and landscape) ———– */
 @media screen and (max-width : 480px) {
     #all{
@@ -49,9 +56,6 @@ img#headerlogo{
     
     #tags{
         display: none;
-        /*width: 50%;
-        float: right;
-        border: 3px solid #99ffbb;*/
     }
 
     #content{
@@ -74,7 +78,7 @@ img#headerlogo{
     }
     
     #tags{
-        width: 50%;
+        width: 60%;
         float:right;
         border: 3px solid #99ffbb;
     }
@@ -105,14 +109,6 @@ img#headerlogo{
         width: 60%;
         float: right;
         border: 3px solid #99ffbb;
-    }
-
-    .tag1 a, .tag2 a, .tag3 a{
-        text-decoration: none;
-        float: right;
-        text-align: center;
-        margin-right: 20px;
-        top: 15px;
     }
 
     #content{
