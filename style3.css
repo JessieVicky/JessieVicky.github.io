@@ -34,12 +34,12 @@ img#headerlogo{
     top: 15px;
 }
 
-.tag1 a, .tag2 a, .tag3 a{
+#tags .tag1 a, #tags .tag2 a, #tags .tag3 a{
     text-decoration: none;
     float: right;
     text-align: center;
     margin-right: 30px;
-    top: 45px;
+    top: 15px;
 }
 /* Smartphones (portrait and landscape) ———– */
 @media screen and (max-width : 480px) {
