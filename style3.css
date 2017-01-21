@@ -9,14 +9,16 @@ body{
 }
 
 
+
 /* Smartphones (portrait and landscape) ———– */
 @media screen and (max-width : 480px) {
     #all{
+        min-width: 480px;
         border: 3px solid #6495ED;
     }
 
     #header{
-        min-width: 200px;
+        width: 100%;
         border: 3px solid #D91B5C;
     }
     #rotaract{
