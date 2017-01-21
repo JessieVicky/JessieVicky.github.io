@@ -27,8 +27,7 @@ img#headerlogo{
 }
 #linkan{
     float: left;
-    padding-left: 10px;
-    border: 1px solid #000000;
+    margin-left: 10px;
     font-size: 20px;
 }
 
