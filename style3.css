@@ -10,6 +10,7 @@ body{
 
 #header{
     color: #D91B5C;
+    margin-bottom: 20px;
 }
 #rotaract{
     width: 380px;
@@ -26,6 +27,7 @@ img#headerlogo{
     border: 1px solid #000000;
 }
 #linkan{
+    position: relative;
     float: left;
     margin-left: 10px;
     font-size: 20px;
