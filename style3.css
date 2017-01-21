@@ -8,13 +8,7 @@ body{
     margin-left: 10px;
 }
 
-.tag{
-    width: 30%;
-    text-decoration: none;
-    float: right;
-    text-align: center;
-    margin-right: 20px;
-}
+
 /* Smartphones (portrait and landscape) ———– */
 @media screen and (max-width : 480px) {
     #all{
@@ -130,6 +124,14 @@ body{
         width: 50%;
         float: right;
         border: 3px solid #99ffbb;
+    }
+
+    .tag a{
+        width: 30%;
+        text-decoration: none;
+        float: right;
+        text-align: center;
+        margin-right: 20px;
     }
 
     #content{
