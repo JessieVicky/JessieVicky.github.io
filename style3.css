@@ -147,13 +147,13 @@ img#headerlogo{
         border-bottom: 3px solid #000000;
     }
     .boxes{
-        position: relative;
+        position: absolute;
         width: 90%;
         margin: auto;
     }
     .box1, .box2, .box3, .box4, .box5{
         float: left;
-        font-size: 16px;
+        font-size: 14px;
         width: 310px;
         height: 310px;
         margin: 10px;
