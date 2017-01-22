@@ -24,7 +24,7 @@ img#headerlogo{
 }
 #logo{
     position: relative;
-    top: 25px;
+    top: 15px;
     float:left;
 }
 #linkan{
@@ -144,7 +144,9 @@ img#headerlogo{
         width: 100%;
     }
     .boxes{
-        width: 80%;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
     }
     .box1, .box2, .box3, .box4, .box5{
         float: left;
