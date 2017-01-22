@@ -4,9 +4,6 @@ body{
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
 
-#all{
-    padding: 5%;
-}
 .word2space{
     margin-left: 10px;
 }
@@ -26,7 +23,7 @@ img#headerlogo{
     height: 50px;
 }
 #logo{
-    top: 15px;
+    top: 25px;
     float:left;
 }
 #linkan{
