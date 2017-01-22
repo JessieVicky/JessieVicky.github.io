@@ -144,9 +144,8 @@ img#headerlogo{
         width: 100%;
     }
     .boxes{
-        width: 100%;
-        padding-left: 100px;
-        padding-right: 100px;
+        width: 90%;
+        margin: auto;
     }
     .box1, .box2, .box3, .box4, .box5{
         float: left;
