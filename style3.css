@@ -142,6 +142,7 @@ img#headerlogo{
 
     #content{
         width: 100%;
+        margin-bottom: 10px;
     }
     .boxes{
         width: 90%;
