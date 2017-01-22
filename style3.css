@@ -1,10 +1,12 @@
 body{
     margin: 0;
-    padding-left: 20px;
     padding: 0;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
 
+#all{
+    padding: 5%;
+}
 .word2space{
     margin-left: 10px;
 }
@@ -20,11 +22,11 @@ body{
     padding-left: 20px;
 }
 img#headerlogo{
-    top: 15px;
     width: 120px;
     height: 50px;
 }
 #logo{
+    top: 15px;
     float:left;
 }
 #linkan{
@@ -32,7 +34,7 @@ img#headerlogo{
     float: left;
     margin-left: 7px;
     font-size: 20px;
-    top: 30px;
+    top: 25px;
 }
 
 #tags .tag1 a, #tags .tag2 a, #tags .tag3 a{
@@ -41,7 +43,7 @@ img#headerlogo{
     float: right;
     text-align: center;
     margin-right: 30px;
-    top: 30px;
+    top: 25px;
     color: #D91B5C;
 }
 /* Smartphones (portrait and landscape) ———– */
