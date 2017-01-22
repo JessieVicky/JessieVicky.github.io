@@ -10,13 +10,12 @@ body{
 
 #header{
     color: #D91B5C;
-    height: 52px;
+    height: 72px;
     border-bottom: 3px solid #D91B5C;
 }
 #rotaract{
     width: 280px;
     float: left;
-    border: 3px solid #ffcccc;
     padding-left: 20px;
 }
 img#headerlogo{
@@ -25,7 +24,6 @@ img#headerlogo{
 }
 #logo{
     float:left;
-    border: 1px solid #000000;
 }
 #linkan{
     position: relative;
