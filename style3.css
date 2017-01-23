@@ -205,7 +205,9 @@ img#headerlogo{
     transition-delay: 0.4s;
 }
 
-
+figure{
+    margin: 0;
+}
 
 /* Smartphones (portrait and landscape) ———– */
 @media screen and (max-width : 480px) {
@@ -356,8 +358,8 @@ img#headerlogo{
     }
     
     .images{
-        max-width:100% !important;
-        height:auto;
+        max-width: 100%;
+        height: 70%;
         display:block
         text-align: justify;
         -ms-text-justify: distribute;
