@@ -241,7 +241,18 @@ img#headerlogo{
     .boxes div.box5 img{
         display: none;
     }
+    .images{
+        max-width:50%;
+        min-width:1000px;
+        max-height:500px;
+        min-height:21%;
+        margin-left: 130px;
+        margin-right: 140px;
 
+        text-align: justify;
+        -ms-text-justify: distribute;
+        text-justify: distribute;
+    }
     #footer{
     }
 }
@@ -281,6 +292,19 @@ img#headerlogo{
 
     .boxes div.box5 img{
         display: none;
+    }
+
+    .images{
+        max-width:50%;
+        min-width:1000px;
+        max-height:500px;
+        min-height:21%;
+        margin-left: 130px;
+        margin-right: 140px;
+
+        text-align: justify;
+        -ms-text-justify: distribute;
+        text-justify: distribute;
     }
     #footer{
     }
