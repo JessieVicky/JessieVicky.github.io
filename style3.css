@@ -70,8 +70,8 @@ img#headerlogo{
 }
 
 .box1 h2, .box2 h2, .box3 h2, .box4 h2{
-    display: inline-block;
-    text-align: center;
+    top: 50%;
+    left: 50%;
     color: #fff;
 }
 .box1 h3, .box2 h3, .box3 h3, .box4 h3{
