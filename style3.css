@@ -45,7 +45,7 @@ img#headerlogo{
     color: #D91B5C;
 }
 
-#content{
+#keywords, #gallerydoor, #contact{
     padding-left: 20px;
 }
 
@@ -223,7 +223,7 @@ figure{
         display: none;
     }
 
-    #content{
+    #keywords, #gallerydoor, #contact{
         width: 100%;
         margin: auto;
         overflow: auto;
@@ -274,7 +274,7 @@ figure{
         display: none;
     }
 
-    #content{
+    #keywords, #gallerydoor, #contact{
         width: 90%;
         margin: auto;
         overflow: auto;
@@ -331,7 +331,7 @@ figure{
         float: right;
     }
 
-    #content{
+    #keywords, #gallerydoor, #contact{
         width: 100%;
         margin-bottom: 100px;
         overflow: auto;
