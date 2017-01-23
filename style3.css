@@ -359,7 +359,7 @@ figure{
     
     .images{
         max-width: 100%;
-        height: 70%;
+        height: 300px;
         display:block
         text-align: justify;
         -ms-text-justify: distribute;
