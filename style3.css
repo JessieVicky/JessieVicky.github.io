@@ -147,7 +147,7 @@ img#headerlogo{
 }
 .view img {
     max-width: 100%;
-    min-height: 100%;
+    max-height: 100%;
     display: block;
     position: relative;
 }
@@ -201,6 +201,10 @@ img#headerlogo{
 .view:hover p{
     opacity: 1;
     transition-delay: 0.4s;
+}
+img.ig-walden {
+  -webkit-filter: sepia(0.35) contrast(0.9) brightness(1.1) hue-rotate(-10deg) saturate(1.5);
+  filter: sepia(0.35) contrast(0.9) brightness(1.1) hue-rotate(-10deg) saturate(1.5);
 }
 
 
