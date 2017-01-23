@@ -50,6 +50,10 @@ img#headerlogo{
 }
 
 .box1 h3, .box2 h3, .box3 h3, .box4 h3{
+    text-align: center;
+    vertical-align: middle;
+}
+.box1 h3, .box2 h3, .box3 h3, .box4 h3{
     font-size: 14px;
     position: absolute;
     top: 0;
@@ -147,7 +151,7 @@ img#headerlogo{
         overflow: auto;
     }
     .boxes{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     .box1, .box2, .box3, .box4, .box5{
