@@ -109,6 +109,101 @@ img#headerlogo{
     opacity:0.9;
 }
 
+.images div{
+    float: left;
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+.view {
+    width: 300px;
+    height: 300px;
+    /*margin: 14px;*/
+    float: left;
+    border: 3px solid #f2f2f2;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    /*box-shadow: 2px 2px 3px #e6e6e6;*/
+    cursor: default;
+    /*background: #fff url(bg2.jpg) no-repeat center center*/
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    max-width: 100%;
+    min-height: 100%;
+    display: block;
+    position: relative;
+}
+.view h2 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: justify;
+}
+
+
+.view img {
+    transition: all 0.3s ease-in-out;
+}
+.view .mask {
+    background-color: rgba(146,96,91,0.3);
+    transform: translateX(-300px);
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+}
+.view h2{
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+    box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
+}
+.view p{
+    opacity: 0;
+    color: #333;
+    transition: all 0.2s linear;
+}
+
+.view:hover .mask {
+    transform: translateX(0px);
+}
+.view:hover img {
+    transform: translateX(300px);
+    transition-delay: 0.1s;
+}
+.view:hover p{
+    opacity: 1;
+    transition-delay: 0.4s;
+}
+
+
 /* Smartphones (portrait and landscape) ———– */
 @media screen and (max-width : 480px) {
     #all{
@@ -125,7 +220,6 @@ img#headerlogo{
 
     #content{
         width: 100%;
-        border: 5px solid #D91B5C;
         margin: auto;
         overflow: auto;
     }
@@ -166,7 +260,6 @@ img#headerlogo{
 
     #content{
         width: 90%;
-        border: 5px solid #D91B5C;
         margin: auto;
         overflow: auto;
     }
@@ -212,7 +305,6 @@ img#headerlogo{
     #content{
         width: 100%;
         margin-bottom: 100px;
-        border-bottom: 3px solid #000000;
         overflow: auto;
     }
     .boxes{
@@ -246,100 +338,6 @@ img#headerlogo{
         text-align: justify;
         -ms-text-justify: distribute;
         text-justify: distribute;
-    }
-
-    .images div{
-        float: left;
-        position: relative;
-        display: inline-block;
-        *display: inline;
-        zoom: 1;
-    }
-
-    .stretch {
-        width: 100%;
-        display: inline-block;
-        font-size: 0;
-        line-height: 0;
-    }
-
-    .view {
-        width: 300px;
-        height: 300px;
-        /*margin: 14px;*/
-        float: left;
-        border: 3px solid #f2f2f2;
-        overflow: hidden;
-        position: relative;
-        text-align: center;
-        /*box-shadow: 2px 2px 3px #e6e6e6;*/
-        cursor: default;
-        /*background: #fff url(bg2.jpg) no-repeat center center*/
-    }
-    .view .mask, .view .content {
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        overflow: hidden;
-        top: 0;
-        left: 0
-    }
-    .view img {
-        max-width: 100%;
-        min-height: 100%;
-        display: block;
-        position: relative;
-    }
-    .view h2 {
-        color: #fff;
-        text-align: center;
-        position: relative;
-        font-size: 17px;
-        padding: 10px;
-        background: rgba(0, 0, 0, 0.8);
-        margin: 20px 0 0 0
-    }
-    .view p {
-        font-family: Georgia, serif;
-        font-style: italic;
-        font-size: 12px;
-        position: relative;
-        color: #fff;
-        padding: 10px 20px 20px;
-        text-align: justify;
-    }
-
-
-    .view img {
-        transition: all 0.3s ease-in-out;
-    }
-    .view .mask {
-        background-color: rgba(146,96,91,0.3);
-        transform: translateX(-300px);
-        opacity: 1;
-        transition: all 0.4s ease-in-out;
-    }
-    .view h2{
-        background: rgba(255, 255, 255, 0.5);
-        color: #000;
-        box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
-    }
-    .view p{
-        opacity: 0;
-        color: #333;
-        transition: all 0.2s linear;
-    }
-
-    .view:hover .mask {
-        transform: translateX(0px);
-    }
-    .view:hover img {
-        transform: translateX(300px);
-        transition-delay: 0.1s;
-    }
-    .view:hover p{
-        opacity: 1;
-        transition-delay: 0.4s;
     }
 
 
