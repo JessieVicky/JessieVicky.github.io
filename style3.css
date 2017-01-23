@@ -127,8 +127,10 @@ img#headerlogo{
         width: 100%;
         border: 5px solid #D91B5C;
         margin: auto;
+        overflow: auto;
+
     }
-    .box1, .box2, .box3, .box4, .box5{
+    .box1, .box2, .box3, .box4{
         float: left;
         font-size: 14px;
         width: 310px;
@@ -136,7 +138,7 @@ img#headerlogo{
         margin: 10px;
         position: relative;
     }
-    .box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
+    .box1 img, .box2 img, .box3 img, .box4 img{
         width: 100%;
         height: 100%;
         display: block;
@@ -163,8 +165,8 @@ img#headerlogo{
         width: 90%;
         border: 5px solid #D91B5C;
         margin: auto;
+        overflow: auto;
     }
-
 
     .box1, .box2, .box3, .box4{
         float: left;
@@ -217,7 +219,6 @@ img#headerlogo{
         padding-right: 50px;
         margin: auto;
     }
-
 
     .box1, .box2, .box3, .box4, .box5{
         float: left;
