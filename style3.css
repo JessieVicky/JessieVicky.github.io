@@ -139,10 +139,8 @@ img#headerlogo{
     }
 
     #content{
-        width: 60%;
+        width: 100%;
         border: 5px solid #D91B5C;
-        padding-left: 50px;
-        padding-right: 50px;
         margin: auto;
     }
     .box1, .box2, .box3, .box4, .box5{
@@ -177,10 +175,8 @@ img#headerlogo{
     }
 
     #content{
-        width: 60%;
+        width: 90%;
         border: 5px solid #D91B5C;
-        padding-left: 50px;
-        padding-right: 50px;
         margin: auto;
     }
 
