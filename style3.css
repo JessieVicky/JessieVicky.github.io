@@ -53,6 +53,7 @@ img#headerlogo{
     display: inline-block;
     text-align: center;
     vertical-align: middle;
+    color: #fff;
 }
 .box1 h3, .box2 h3, .box3 h3, .box4 h3{
     font-size: 14px;
@@ -164,6 +165,7 @@ img#headerlogo{
         height: 310px;
         margin: 10px;
         position: relative;
+        margin: auto;
     }
     .box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
         width: 100%;
