@@ -128,7 +128,6 @@ img#headerlogo{
         border: 5px solid #D91B5C;
         margin: auto;
         overflow: auto;
-
     }
     .box1, .box2, .box3, .box4{
         float: left;
@@ -143,6 +142,10 @@ img#headerlogo{
         height: 100%;
         display: block;
         position: relative;
+    }
+
+    .boxes div.box5 img{
+        display: none;
     }
 
     #footer{
@@ -214,9 +217,6 @@ img#headerlogo{
     }
     .boxes{
         width: 90%;
-        border: 5px solid #D91B5C;
-        padding-left: 20px;
-        padding-right: 20px;
         margin: auto;
     }
 
