@@ -50,6 +50,7 @@ img#headerlogo{
 }
 
 .box1 h2, .box2 h2, .box3 h2, .box4 h2{
+    display: inline-block;
     text-align: center;
     vertical-align: middle;
 }
@@ -65,7 +66,7 @@ img#headerlogo{
     color: #333333;
     text-align: justify;
     opacity:0;
-    transition:1s;
+    transition: 1s;
 }
 
 .box1 h3{
@@ -151,7 +152,7 @@ img#headerlogo{
         overflow: auto;
     }
     .boxes{
-        width: 100%;
+        width: 95%;
         margin: auto;
     }
     .box1, .box2, .box3, .box4, .box5{
