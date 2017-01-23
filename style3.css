@@ -124,7 +124,15 @@ img#headerlogo{
     }
 
     #content{
+        width: 60%;
+        border: 5px solid #D91B5C;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: auto;
+    }
 
+    .box5{
+        display: none;
     }
     #footer{
     }
@@ -155,7 +163,8 @@ img#headerlogo{
     .boxes{
         width: 80%;
         border: 5px solid #D91B5C;
-        padding-left: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
         margin: auto;
     }
     .box1, .box2, .box3, .box4, .box5{
