@@ -180,7 +180,7 @@ img#headerlogo{
         margin: auto;
     }
 
-    .boxes .box5{
+    .boxes div.box5{
         display: none;
     }
     #footer{
