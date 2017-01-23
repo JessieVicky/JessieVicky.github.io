@@ -154,9 +154,8 @@ img#headerlogo{
     }
     .boxes{
         width: 80%;
-        border: 5px solid #D91B5C;
+        border: 5px solid #000000;
         margin: auto;
-        overflow: auto;
     }
     .box1, .box2, .box3, .box4, .box5{
 /*        float: left;
@@ -166,7 +165,6 @@ img#headerlogo{
         height: 310px;
         margin: 10px;
         position: relative;
-        margin: 3px auto;
     }
     .box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
         width: 100%;
