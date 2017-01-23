@@ -53,7 +53,7 @@ img#headerlogo{
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    color: #fff;
+    /*color: #fff;*/
 }
 .box1 h3, .box2 h3, .box3 h3, .box4 h3{
     font-size: 14px;
