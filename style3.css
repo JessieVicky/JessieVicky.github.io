@@ -71,8 +71,8 @@ img#headerlogo{
 
 .box1 h2, .box2 h2, .box3 h2, .box4 h2{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
     color: #fff;
 }
 .box1 h3, .box2 h3, .box3 h3, .box4 h3{
@@ -154,6 +154,7 @@ img#headerlogo{
     display: block;
     position: relative;
 }
+
 .view h2 {
     color: #fff;
     text-align: center;
@@ -353,7 +354,7 @@ figure{
     }
     .box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
         width: 100%;
-        height: auto;
+        height: 100%;
         display: block;
         position: relative;
     }
