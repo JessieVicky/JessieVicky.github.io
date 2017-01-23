@@ -149,7 +149,7 @@ img#headerlogo{
     }
 }
 
-@media screen and (min-width : 481px) and (max-width : 768px) {
+@media screen and (min-width : 481px) and (max-width : 899px) {
     #all{
     }
 
@@ -190,7 +190,7 @@ img#headerlogo{
     }
 }
 /* Desktops and laptops ———– */
-@media screen and (min-width : 769px) {
+@media screen and (min-width : 900px) {
     #body{
     }
 
