@@ -159,13 +159,14 @@ img#headerlogo{
         overflow: auto;
     }
     .box1, .box2, .box3, .box4, .box5{
-        float: left;
+/*        float: left;
+*/        
         font-size: 14px;
         width: 310px;
         height: 310px;
         margin: 10px;
         position: relative;
-        margin: auto;
+        margin: 3px auto;
     }
     .box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
         width: 100%;
