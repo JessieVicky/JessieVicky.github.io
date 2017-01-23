@@ -356,8 +356,9 @@ img#headerlogo{
     }
     
     .images{
-        width: 100%;
-        margin: auto;
+        max-width:100% !important;
+        height:auto;
+        display:block
         text-align: justify;
         -ms-text-justify: distribute;
         text-justify: distribute;
