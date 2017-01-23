@@ -52,8 +52,7 @@ img#headerlogo{
 .box1 h2, .box2 h2, .box3 h2, .box4 h2{
     display: inline-block;
     text-align: center;
-    vertical-align: middle;
-    /*color: #fff;*/
+    color: #fff;
 }
 .box1 h3, .box2 h3, .box3 h3, .box4 h3{
     font-size: 14px;
@@ -121,7 +120,7 @@ img#headerlogo{
         display: block;
         position: relative;
     }
-    
+
     #footer{
     }
 }
@@ -146,7 +145,7 @@ img#headerlogo{
         margin: auto;
     }
 
-    .box5{
+    .boxes .box5{
         display: none;
     }
     #footer{
