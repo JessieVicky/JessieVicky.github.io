@@ -49,21 +49,6 @@ img#headerlogo{
     padding-left: 20px;
 }
 
-.box1, .box2, .box3, .box4, .box5{
-    float: left;
-    font-size: 14px;
-    width: 310px;
-    height: 310px;
-    margin: 10px;
-    position: relative;
-}
-.box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: relative;
-}
-
 .box1{
     background: #D91B5C;
 }
@@ -180,7 +165,23 @@ img#headerlogo{
         margin: auto;
     }
 
-    .boxes div.box5{
+
+    .box1, .box2, .box3, .box4{
+        float: left;
+        font-size: 14px;
+        width: 310px;
+        height: 310px;
+        margin: 10px;
+        position: relative;
+    }
+    .box1 img, .box2 img, .box3 img, .box4 img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .boxes div.box5 img{
         display: none;
     }
     #footer{
@@ -215,6 +216,22 @@ img#headerlogo{
         padding-left: 50px;
         padding-right: 50px;
         margin: auto;
+    }
+
+
+    .box1, .box2, .box3, .box4, .box5{
+        float: left;
+        font-size: 14px;
+        width: 310px;
+        height: 310px;
+        margin: 10px;
+        position: relative;
+    }
+    .box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: relative;
     }
     
     #footer{
