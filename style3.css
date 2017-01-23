@@ -225,7 +225,7 @@ img#headerlogo{
         font-size: 14px;
         width: 310px;
         height: 310px;
-        margin: 10px;
+        margin-right: 10px;
         position: relative;
     }
     .box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
@@ -342,7 +342,7 @@ img#headerlogo{
         transition-delay: 0.4s;
     }
 
-    
+
     #footer{
     }
 
