@@ -153,6 +153,7 @@ img#headerlogo{
     }
     .boxes{
         width: 95%;
+        border: 2px solid #D91B5C;
         margin: auto;
     }
     .box1, .box2, .box3, .box4, .box5{
