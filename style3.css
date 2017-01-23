@@ -215,8 +215,8 @@ img#headerlogo{
     .boxes{
         width: 90%;
         border: 5px solid #D91B5C;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
         margin: auto;
     }
 
