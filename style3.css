@@ -37,10 +37,10 @@ img#headerlogo{
 }
 
 #headerimg {
+    background-image:url("img/link2.jpg");
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image:url("img/link2.jpg");
 }
 
 #tags .tag1 a, #tags .tag2 a, #tags .tag3 a{
