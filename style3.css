@@ -38,12 +38,10 @@ img#headerlogo{
 }
 
 #headerimg {
-    background-image:url("img/link2.jpg");
-    background-repeat: no-repeat;
+    overflow: hidden;
     background-size: cover;
-    background-attachment: fixed;
-    min-width:1024px;
-    min-height:600px;
+    background-position: center;
+    background-image:url("img/link2.jpg");
 }
 
 #tags .tag1 a, #tags .tag2 a, #tags .tag3 a{
@@ -405,8 +403,16 @@ figure{
     }
     
     .images{
-        width:100%;
-        height:100%;
+        zoom: 2;  //increase if you have very small images
+
+        display: block;
+        margin: auto;
+
+        height: auto;
+        max-height: 100%;
+
+        width: auto;
+        max-width: 100%;
         text-align: justify;
         -ms-text-justify: distribute;
         text-justify: distribute;
