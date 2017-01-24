@@ -398,7 +398,7 @@ figure{
     }
     
     .images{
-        zoom: 2;  //increase if you have very small images
+        zoom: 2;  
 
         display: block;
         margin: auto;
