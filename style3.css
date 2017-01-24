@@ -42,7 +42,9 @@ img#headerlogo{
     background-size: cover;
     background-attachment: fixed;
     min-width:1024px;
-    min-height:600px;
+    height:auto;
+    margin-bottom: 50px;
+    border-bottom: 5px solid #D91B5C;
 }
 
 #tags .tag1 a, #tags .tag2 a, #tags .tag3 a{
