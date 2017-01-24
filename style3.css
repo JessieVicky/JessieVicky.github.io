@@ -38,9 +38,11 @@ img#headerlogo{
 
 #headerimg {
     background-image:url("img/link2.jpg");
-    overflow: hidden;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    min-width:1024px;
+    min-height:auto;
 }
 
 #tags .tag1 a, #tags .tag2 a, #tags .tag3 a{
