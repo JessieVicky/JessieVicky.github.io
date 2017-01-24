@@ -42,7 +42,7 @@ img#headerlogo{
     background-size: cover;
     background-attachment: fixed;
     min-width:1024px;
-    height:auto;
+    height:100%;
     margin-bottom: 50px;
     border-bottom: 5px solid #D91B5C;
 }
