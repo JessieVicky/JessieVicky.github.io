@@ -70,10 +70,12 @@ img#headerlogo{
 }
 
 .box1 h2, .box2 h2, .box3 h2, .box4 h2{
+    margin: 0;
     position: absolute;
-    top: 40%;
-    left: 30%;
     color: #fff;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
 }
 .box1 h3, .box2 h3, .box3 h3, .box4 h3{
     font-size: 14px;
