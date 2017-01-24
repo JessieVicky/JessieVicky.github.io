@@ -394,6 +394,7 @@ figure{
     .boxes{
         width: 90%;
         margin: auto;
+        position: center;
     }
 
     .box1, .box2, .box3, .box4, .box5{
