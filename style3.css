@@ -39,11 +39,8 @@ img#headerlogo{
 #headerimg {
     background-image:url("img/link2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    min-width:1024px;
-    height:100%;
-    margin-bottom: 50px;
+    background-size: contain;
+    background-position: center;
     border-bottom: 5px solid #D91B5C;
 }
 
@@ -256,7 +253,21 @@ figure{
     margin-right: 10px;
 }
 
+.card1, .card2{
+    width: 40%;
+    float: left;
+    font-family: Georgia, serif;
+}
+.card1 p, .card1 p{
 
+    font-size: 14px;
+}
+
+.card1 img, .card2 img{
+    top:10%;
+    left: 50%;
+    border-radius: 50%;
+}
 /* Smartphones (portrait and landscape) ———– */
 @media screen and (max-width : 480px) {
     #all{
