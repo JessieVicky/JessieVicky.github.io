@@ -414,8 +414,9 @@ figure{
     }
     
     .gallerydoor{
+        border-top: 5px solid #D91B5C;
         width: 90%;
-        margin: auto;
+        margin: 0 auto;
         text-align: justify;
         -ms-text-justify: distribute;
         text-justify: distribute;
