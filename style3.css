@@ -365,9 +365,7 @@ figure{
     
     .images{
         width:100%;
-        min-width:1000px;
         max-height:500px;
-        min-height:21%;
         text-align: justify;
         -ms-text-justify: distribute;
         text-justify: distribute;
