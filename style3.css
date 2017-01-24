@@ -11,7 +11,6 @@ body{
 #header{
     color: #D91B5C;
     height: 72px;
-    padding-right: 100px;
     padding-left: 50px;
     border-bottom: 3px solid #D91B5C;
 }
@@ -373,6 +372,7 @@ figure{
 
     #tags{
         width: 60%;
+        padding-right: 50px;
         float: right;
     }
 
