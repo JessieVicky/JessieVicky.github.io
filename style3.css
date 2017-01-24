@@ -226,6 +226,36 @@ figure{
     margin: 0;
 }
 
+.members{
+    max-width:50%;
+    min-width:1000px;
+    max-height:100px;
+    min-height:21%;
+    margin-left: -10px;
+}
+
+.members img{
+    width: 120px;
+    height: 120px;
+}
+
+.members p{
+    position: center;
+    width: 280px;
+    max-height: 110px;
+    overflow: hidden;
+}
+.m1, .m2, .m3{
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    margin-top: 60px;
+    margin-right: 40px;
+    position: relative;
+}
+
+
 /* Smartphones (portrait and landscape) ———– */
 @media screen and (max-width : 480px) {
     #all{
