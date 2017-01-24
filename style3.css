@@ -161,10 +161,16 @@ img#headerlogo{
     left: 0
 }
 .view img {
-    max-width: 100%;
-    max-height: 100%;
+    zoom: 1.5;  
+
     display: block;
-    position: relative;
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
 }
 
 .view h2 {
@@ -411,16 +417,7 @@ figure{
     }
     
     .images{
-        zoom: 1.5;  
-
-        display: block;
-        margin: auto;
-
-        height: auto;
-        max-height: 100%;
-
-        width: auto;
-        max-width: 100%;
+        width: 100%;
         text-align: justify;
         -ms-text-justify: distribute;
         text-justify: distribute;
