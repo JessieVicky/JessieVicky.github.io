@@ -126,7 +126,7 @@ img#headerlogo{
 
 /* IMAGES */
 
-.images div{
+.gallerydoor div{
     float: left;
     position: relative;
     display: inline-block;
@@ -144,15 +144,12 @@ img#headerlogo{
 .view {
     width: 300px;
     height: 300px;
-    /*margin: 14px;*/
     float: left;
     background-color: #fff;
     overflow: hidden;
     position: relative;
     text-align: center;
-    /*box-shadow: 2px 2px 3px #e6e6e6;*/
     cursor: default;
-    /*background: #fff url(bg2.jpg) no-repeat center center*/
 }
 .view .mask, .view .content {
     width: 300px;
@@ -286,8 +283,8 @@ figure{
     .boxes div.box5 img{
         display: none;
     }
-    .images{
-        width: 90%;
+    .gallerydoor{
+        width: 100%;
         margin: auto;
         text-align: justify;
         -ms-text-justify: distribute;
@@ -295,6 +292,7 @@ figure{
     }
 
     #footer{
+        display: none;
     }
 }
 
@@ -335,18 +333,14 @@ figure{
         display: none;
     }
 
-    .images{
-        max-width:50%;
-        min-width:1000px;
-        max-height:500px;
-        min-height:21%;
-        margin-left: 130px;
-        margin-right: 140px;
-
+    .gallerydoor{
+        width: 90%;
+        margin: auto;
         text-align: justify;
         -ms-text-justify: distribute;
         text-justify: distribute;
     }
+
     #footer{
         margin-top: 50px;
         overflow: hidden;
@@ -355,14 +349,6 @@ figure{
         font-size: 20px;
         font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
     }
-    .images{
-        width: 90%;
-        margin: auto;
-        text-align: justify;
-        -ms-text-justify: distribute;
-        text-justify: distribute;
-    }
-
 
     #footer p{
         margin-left: 140px;
@@ -402,8 +388,8 @@ figure{
     .box1, .box2, .box3, .box4, .box5{
         float: left;
         font-size: 14px;
-        width: 310px;
-        height: 310px;
+        width: 300px;
+        height: 300px;
         margin-right: 15px;
         margin-bottom: 15px;
         position: relative;
@@ -415,7 +401,7 @@ figure{
         position: relative;
     }
     
-    .images{
+    .gallerydoor{
         width: 90%;
         margin: auto;
         text-align: justify;
@@ -425,7 +411,18 @@ figure{
 
 
     #footer{
+        margin-top: 50px;
+        overflow: hidden;
+        background-color: #262626;
+        color:#fff;
+        font-size: 20px;
+        font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
     }
 
+    #footer p{
+        margin-left: 140px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
