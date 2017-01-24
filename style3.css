@@ -224,11 +224,8 @@ figure{
 }
 
 .members{
-    max-width:50%;
-    min-width:1000px;
-    max-height:100px;
-    min-height:21%;
-    margin-left: -10px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .members img{
@@ -243,13 +240,11 @@ figure{
     overflow: hidden;
 }
 .m1, .m2, .m3{
-    display: inline-block;
+    width: 40%;
     float: left;
     font-size: 14px;
     font-family: Georgia, serif;
-    margin-top: 60px;
-    margin-right: 40px;
-    position: relative;
+    margin-right: 10px;
 }
 
 
