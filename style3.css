@@ -76,6 +76,8 @@ img#headerlogo{
     top: 50%;
     left: 50%;
     margin-right: -50%;
+    transform: translate(-50%, -50%);
+
 }
 .box1 h3, .box2 h3, .box3 h3, .box4 h3{
     font-size: 14px;
@@ -366,6 +368,8 @@ figure{
         min-width:1000px;
         max-height:500px;
         min-height:21%;
+        margin-left: 130px;
+        margin-right: 140px;
         text-align: justify;
         -ms-text-justify: distribute;
         text-justify: distribute;
