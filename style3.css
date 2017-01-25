@@ -39,11 +39,16 @@ img#headerlogo{
 #headerimg {
     width: 100%;
     overflow: hidden;
+    padding-bottom: 50px;
+    border-bottom: 5px solid #D91B5C;
 }
 
 img.cover_img{
-    width: 100%;
-    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 #tags .tag1 a, #tags .tag2 a, #tags .tag3 a{
@@ -232,41 +237,29 @@ figure{
 }
 
 .members{
+    margin: auto;
     width: 100%;
     overflow: hidden;
 }
 
-.members img{
-    width: 120px;
-    height: 120px;
-}
-
-.members p{
-    position: center;
-    width: 280px;
-    max-height: 110px;
-    overflow: hidden;
-}
-.m1, .m2, .m3{
+.card1, .card2{
     width: 40%;
     float: left;
-    font-size: 14px;
-    font-family: Georgia, serif;
     margin-right: 10px;
-}
-
-.card1, .card2{
-/*    background-image:url("img/profile.jpg");
-*/    width: 40%;
-    float: left;
     font-family: Georgia, serif;
 }
-.card1 p, .card1 p{
 
+.profile{        
+    background-image:url("img/profile.jpg");
+    width: 200px;
+    height: 300px;
+}
+
+.card1 .profile p, .card1 .profile p{
     font-size: 14px;
 }
 
-.card1 img, .card2 img{
+.card1 .profile img, .card2 .profile img{
     top:10%;
     left: 50%;
     border-radius: 50%;
