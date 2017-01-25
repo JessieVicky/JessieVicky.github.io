@@ -136,37 +136,39 @@ img.cover_img{
 
 /* IMAGES */
 
-/*.gallerydoor div{
+.gallerydoor div{
     float: left;
     position: relative;
     display: inline-block;
     *display: inline;
     zoom: 1;
-}*/
+}
 
 /*.stretch {
     width: 100%;
     display: inline-block;
     font-size: 0;
     line-height: 0;
-}
-*/
-
+}*/
 
 .view {
-    overflow: hidden;
-    text-align: center;
-    cursor: default;
-}
-
-.view .mask, .view .content {
-
     width: 300px;
     height: 300px;
+    float: left;
+    background-color: #fff;
+    overflow: hidden;
     position: relative;
+    text-align: center;
+    cursor: default;
+    margin:0 auto;
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 300px;
+    position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0;
+    left: 0
 }
 .view img.wide {
     max-width: 100%;
@@ -407,13 +409,13 @@ figure{
         margin-bottom: 50px;
     }
 
-    .boxes2, .boxes3{
+    .boxes2{
         width: 90%;
         margin: auto;
         position: center;
     }
 
-    .box1, .box2, .box3, .box4, .box5, .view{
+    .box1, .box2, .box3, .box4, .box5{
         float: left;
         font-size: 14px;
         width: 300px;
@@ -429,7 +431,7 @@ figure{
         position: relative;
     }
     
-    /*.gallerydoor{
+    .gallerydoor{
         border-top: 5px solid #D91B5C;
         width: 90%;
         margin: 0 auto;
@@ -437,7 +439,7 @@ figure{
         -ms-text-justify: distribute;
         text-justify: distribute;
     }
-*/
+
     #footer{
         margin-top: 50px;
         overflow: hidden;
