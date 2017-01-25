@@ -10,10 +10,8 @@ body{
 
 #header{
     color: #D91B5C;
-    background-color: #fff;
     height: 72px;
     padding-left: 50px;
-    margin-bottom: 100px;
     border-bottom: 3px solid #D91B5C;
 }
 #rotaract{
