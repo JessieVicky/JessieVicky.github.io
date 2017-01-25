@@ -159,7 +159,8 @@ img.cover_img{
     max-width: 100%;
     min-height: 100%;
     display: block;
-    position: relative;}
+    position: relative;
+}
 
 .view h2 {
     color: #fff;
@@ -239,6 +240,7 @@ img.bg{
 img.pic{
     width: 50%;
     height: 50%;
+    top:0;
     border-radius: 50%;
 }
 /* Smartphones (portrait and landscape) ———– */
