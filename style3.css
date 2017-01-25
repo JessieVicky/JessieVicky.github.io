@@ -410,6 +410,12 @@ figure{
         position: center;
     }
 
+    .boxes2{
+        width: 90%;
+        margin: auto;
+        position: center;
+    }
+
     .box1, .box2, .box3, .box4, .box5{
         float: left;
         font-size: 14px;
@@ -434,7 +440,6 @@ figure{
         -ms-text-justify: distribute;
         text-justify: distribute;
     }
-
 
     #footer{
         margin-top: 50px;
