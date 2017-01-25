@@ -13,7 +13,7 @@ body{
     background-color: #fff;
     height: 72px;
     padding-left: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     border-bottom: 3px solid #D91B5C;
 }
 #rotaract{
@@ -87,9 +87,6 @@ img.cover_img{
     background: #F7A81B;
 }
 
-.box5{
-    background: #fff;
-}
 
 .box1 h2, .box2 h2, .box3 h2, .box4 h2{
     margin: 0;
@@ -408,6 +405,7 @@ figure{
         width: 90%;
         margin: auto;
         position: center;
+        margin-bottom: 50px;
     }
 
     .boxes2{
