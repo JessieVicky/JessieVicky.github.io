@@ -130,7 +130,7 @@ img.cover_img{
     background: #fff;
 }
 
-.box1:hover h3, .box2:hover h3, .box3:hover h3, .box4:hover h3{
+.box1:hover h3, .box2:hover h3, .box3:hover h3, .box4:hover h3, .box1:focus h3, .box2:focus h3, .box3:focus h3, .box4:focus h3{
     opacity:0.9;
 }
 
@@ -199,14 +199,14 @@ img.cover_img{
     transition: all 0.2s linear;
 }
 
-.view:hover .mask {
+.view:hover .mask, .view:focus .mask {
     transform: translateX(0px);
 }
-.view:hover img {
+.view:hover img, .view:focus img {
     transform: translateX(300px);
     transition-delay: 0.1s;
 }
-.view:hover p{
+.view:hover p, .view:focus p{
     opacity: 1;
     transition-delay: 0.4s;
 }
@@ -219,14 +219,14 @@ figure{
 .card1, .card2{
     float: left;
     width: 40%;
-    height: 100%;
-    margin-right: 15px;
+    height: 320px;
+    margin-right: 29px;
     position: relative;
     font-family: Georgia, serif;
 }
 
 img.bg{        
-    width: 400px;
+    width: 425px;
     height: 320px;
 }
 
@@ -242,7 +242,7 @@ img.pic{
     height: 50%;
     position: absolute;
     top:10px;
-    left: 30px;
+    left: 77px;
     border-radius: 50%;
 }
 /* Smartphones (portrait and landscape) ———– */
@@ -369,7 +369,8 @@ img.pic{
     }
 
     #tags{
-        width: 70%;
+        width: 50%;
+        margin-top: 2px;
         padding-right: 100px;
         float: right;
     }
