@@ -155,8 +155,8 @@ img.cover_img{
     top: 0;
     left: 0;
 }
-.view figure img {
-    height: 100%;
+.view img {
+    height: 300px;
 }
 
 .view h2 {
@@ -218,16 +218,16 @@ figure{
 
 .card1, .card2{
     float: left;
-    width: 300px;
-    height: 320px;
+    width: 40%;
+    height: 100%;
     margin-right: 15px;
     position: relative;
     font-family: Georgia, serif;
 }
 
 img.bg{        
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 320px;
 }
 
 .card1 p, .card1 p{
