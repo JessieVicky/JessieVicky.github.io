@@ -372,7 +372,6 @@ img.pic{
     }
 
     #keywords, #gallerydoor{
-        width: 100%;
         margin-bottom: 100px;
         overflow: auto;
     }
