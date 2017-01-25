@@ -379,12 +379,10 @@ img.pic{
         overflow: auto;
     }
     .boxes{
-        width: auto;
+        width: 90%;
         margin: auto;
         margin-bottom: 50px;
     }
-
-
 
     .box1, .box2, .box3, .box4, .box5{
         float: left;
