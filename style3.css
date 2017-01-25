@@ -226,14 +226,15 @@ figure{
 }
 
 img.bg{        
-    width: 300px;
+    width: 400px;
     height: 320px;
 }
 
 .card1 p, .card1 p{
     font-size: 14px;
+    width: 380px;
     position: absolute;
-    top: 50px;
+    top: 250px;
 }
 
 img.pic{
@@ -241,7 +242,7 @@ img.pic{
     height: 50%;
     position: absolute;
     top:10px;
-    left: 20px;
+    left: 30px;
     border-radius: 50%;
 }
 /* Smartphones (portrait and landscape) ———– */
