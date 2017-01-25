@@ -250,7 +250,7 @@ figure{
 
 .card1, .card2{
     float: left;
-    width: 200px;
+    width: 250px;
     height: 300px;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -268,9 +268,9 @@ img.bg{
 }
 
 img.pic{
-    width: 100%;
-    height: 100%
-    top:10%;
+    width: 50%;
+    height: 50%
+    top: 10%;
     left: 50%;
     border-radius: 50%;
 }
