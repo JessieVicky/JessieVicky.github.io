@@ -37,12 +37,11 @@ img#headerlogo{
 }
 
 #headerimg {
-    background-image:url("img/link2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    border-bottom: 5px solid #D91B5C;
+    background: url(img/link2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
 }
 
 #tags .tag1 a, #tags .tag2 a, #tags .tag3 a{

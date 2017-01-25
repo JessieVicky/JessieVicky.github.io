@@ -35,11 +35,13 @@ body{
 }
 
 #headerimg {
-    background: url(img/link2.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
+    background-image:url("img/link2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width:1024px;
+    min-height:600px;
+}
 
 /* ####################### NAVBAR ####################### */
 nav{
