@@ -64,7 +64,7 @@ img.cover_img{
     color: #D91B5C;
 }
 
-.tags a:hover{
+#tags a:hover{
     color: #262626;
 }
 
@@ -378,6 +378,7 @@ img.pic{
         overflow: auto;
     }
     .boxes{
+        width: auto;
         margin: auto;
         margin-bottom: 50px;
     }
