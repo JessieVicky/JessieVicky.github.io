@@ -261,17 +261,16 @@ figure{
     font-family: Georgia, serif;
 }
 
-.profile{        
-    background-image:url("img/profile.jpg");
+img.bg{        
     width: 200px;
     height: 300px;
 }
 
-.card1 .profile p, .card1 .profile p{
+.card1 p, .card1 p{
     font-size: 14px;
 }
 
-.card1 .profile img, .card2 .profile img{
+img.pic{
     top:10%;
     left: 50%;
     border-radius: 50%;
