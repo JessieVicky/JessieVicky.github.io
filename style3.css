@@ -156,6 +156,8 @@ img.cover_img{
     height: 300px;
     float: left;
     background-color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -247,9 +249,13 @@ figure{
 }*/
 
 .card1, .card2{
-    width: 40%;
     float: left;
-    margin-right: 10px;
+    font-size: 14px;
+    width: 300px;
+    height: 300px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    position: relative;
     font-family: Georgia, serif;
 }
 
@@ -409,11 +415,11 @@ figure{
         margin-bottom: 50px;
     }
 
-    .boxes2{
+   /* .boxes2{
         width: 90%;
         margin: auto;
         position: center;
-    }
+    }*/
 
     .box1, .box2, .box3, .box4, .box5{
         float: left;
