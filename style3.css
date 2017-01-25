@@ -155,22 +155,12 @@ img.cover_img{
     top: 0;
     left: 0;
 }
-.view img.wide {
+.view img {
     max-width: 100%;
     min-height: 100%;
     display: block;
     position: relative;}
-.view img.tall {
-    max-width: 100%;
-    min-height: 100%;
-    display: block;
-    position: relative;}
-.view img.square {
-    max-width: 100%;
-    min-height: 100%;
-    display: block;
-    position: relative;
-}
+
 .view h2 {
     color: #fff;
     text-align: center;

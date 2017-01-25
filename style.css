@@ -331,7 +331,7 @@ h1{
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0
+    left: 0;
 }
 .view img {
     max-width: 100%;
