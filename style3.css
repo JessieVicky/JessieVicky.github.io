@@ -232,14 +232,16 @@ img.bg{
 
 .card1 p, .card1 p{
     font-size: 14px;
+    position: absolute;
+    top: 50px;
 }
 
 img.pic{
     width: 50%;
     height: 50%;
     position: absolute;
-    top:5%;
-    left: 15%;
+    top:10px;
+    left: 20px;
     border-radius: 50%;
 }
 /* Smartphones (portrait and landscape) ———– */
