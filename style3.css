@@ -407,7 +407,7 @@ figure{
         margin-bottom: 50px;
     }
 
-    .boxes2{
+    .boxes2, .boxes3{
         width: 90%;
         margin: auto;
         position: center;
