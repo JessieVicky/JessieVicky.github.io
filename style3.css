@@ -372,7 +372,7 @@ img.pic{
         float: right;
     }
 
-    #keywords, #gallerydoor, #contact{
+    #keywords, #gallerydoor{
         width: 100%;
         margin-bottom: 100px;
         overflow: auto;
@@ -383,11 +383,7 @@ img.pic{
         margin-bottom: 50px;
     }
 
-   /* .boxes2{
-        width: 90%;
-        margin: auto;
-        position: center;
-    }*/
+
 
     .box1, .box2, .box3, .box4, .box5{
         float: left;
@@ -414,6 +410,11 @@ img.pic{
         text-justify: distribute;
     }
 
+    #contact{
+        width: 800px;
+        margin: auto;
+        overflow: hidden;
+    }
     #footer{
         margin-top: 50px;
         overflow: hidden;
