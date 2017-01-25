@@ -295,7 +295,7 @@ img.pic{
     }
 }
 
-@media screen and (min-width : 481px) and (max-width : 999px) {
+@media screen and (min-width : 481px) and (max-width : 899px) {
     #all{
     }
 
@@ -357,7 +357,7 @@ img.pic{
 
 }
 /* Desktops and laptops ———– */
-@media screen and (min-width : 1000px) {
+@media screen and (min-width : 900px) {
     #body{
     }
 
@@ -369,7 +369,7 @@ img.pic{
     }
 
     #tags{
-        width: 60%;
+        width: 70%;
         padding-right: 100px;
         float: right;
     }
