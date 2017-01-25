@@ -136,13 +136,13 @@ img.cover_img{
 
 /* IMAGES */
 
-.gallerydoor div{
+/*.gallerydoor div{
     float: left;
     position: relative;
     display: inline-block;
     *display: inline;
     zoom: 1;
-}
+}*/
 
 /*.stretch {
     width: 100%;
