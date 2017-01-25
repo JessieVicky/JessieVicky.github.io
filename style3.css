@@ -255,6 +255,7 @@ figure{
 }
 
 .card1, .card2{
+    background-image:url("img/profile.jpg");
     width: 40%;
     float: left;
     font-family: Georgia, serif;
