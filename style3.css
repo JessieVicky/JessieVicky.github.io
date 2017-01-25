@@ -61,6 +61,10 @@ img.cover_img{
     color: #D91B5C;
 }
 
+.tags a:hover{
+    color: #262626;
+}
+
 #keywords, #gallerydoor, #contact{
     padding-left: 20px;
 }
