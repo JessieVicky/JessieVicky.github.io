@@ -37,11 +37,13 @@ img#headerlogo{
 }
 
 #headerimg {
-    background: url(img/link2.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
+    width: 100%;
+    overflow: hidden;
+}
+
+img.cover_img{
+    width: 100%;
+    height: auto;
 }
 
 #tags .tag1 a, #tags .tag2 a, #tags .tag3 a{
@@ -254,8 +256,8 @@ figure{
 }
 
 .card1, .card2{
-    background-image:url("img/profile.jpg");
-    width: 40%;
+/*    background-image:url("img/profile.jpg");
+*/    width: 40%;
     float: left;
     font-family: Georgia, serif;
 }
