@@ -168,7 +168,7 @@ img.cover_img{
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0
+    left: 0;
 }
 .view img.wide {
     max-width: 100%;
@@ -239,12 +239,12 @@ img.cover_img{
 figure{
     margin: 0;
 }
-
+/*
 .members{
     margin: auto;
     width: 100%;
     overflow: hidden;
-}
+}*/
 
 .card1, .card2{
     width: 40%;
