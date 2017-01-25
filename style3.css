@@ -155,14 +155,11 @@ img.cover_img{
     width: 300px;
     height: 300px;
     float: left;
-    background-color: #fff;
     margin-right: 15px;
     margin-bottom: 15px;
     overflow: hidden;
-    position: relative;
     text-align: center;
     cursor: default;
-    margin:0 auto;
 }
 .view .mask, .view .content {
     width: 300px;
