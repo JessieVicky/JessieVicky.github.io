@@ -266,6 +266,7 @@ img.pic{
     #keywords, #gallerydoor, #contact{
         width: 100%;
         margin: auto;
+        padding-top: 30px;
         overflow: auto;
     }
     .box1, .box2, .box3, .box4{
@@ -286,14 +287,14 @@ img.pic{
     .boxes div.box5 img{
         display: none;
     }
-    .gallerydoor{
+    ./*gallerydoor{
         width: 100%;
         margin: auto;
         text-align: justify;
         -ms-text-justify: distribute;
         text-justify: distribute;
     }
-
+*/
     #footer{
         display: none;
     }
@@ -314,6 +315,7 @@ img.pic{
     #keywords, #gallerydoor, #contact{
         width: 90%;
         margin: auto;
+        padding-top: 30px;
         overflow: auto;
     }
 
@@ -379,8 +381,9 @@ img.pic{
         float: right;
     }
 
-    #keywords, #gallerydoor{
+    #keywords, #gallerydoor, #contact{
         margin-bottom: 100px;
+        padding-top: 30px;
         overflow: auto;
     }
     .boxes{
@@ -405,7 +408,7 @@ img.pic{
         position: relative;
     }
     
-    .gallerydoor{
+    /*.gallerydoor{
         border-top: 5px solid #D91B5C;
         width: 90%;
         margin: 0 auto;
@@ -413,12 +416,12 @@ img.pic{
         -ms-text-justify: distribute;
         text-justify: distribute;
     }
-
-    #contact{
+*/
+    /*#contact{
         width: 800px;
         margin: auto;
         overflow: hidden;
-    }
+    }*/
     #footer{
         margin-top: 50px;
         overflow: hidden;
