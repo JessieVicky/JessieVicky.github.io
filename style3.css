@@ -322,6 +322,7 @@ img.pic{
     #keywords, #gallerydoor, #contact{
         width: 90%;
         margin: auto;
+        margin-bottom: 200px;
         padding-top: 50px;
         padding-left: 20px;
         overflow: hidden;
@@ -396,7 +397,7 @@ img.pic{
     }
 
     #keywords, #gallerydoor, #contact{
-        margin-bottom: 100px;
+        margin-bottom: 200px;
         padding-top: 50px;
         overflow: hidden;
         padding-left: 100px;
