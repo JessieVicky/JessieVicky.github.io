@@ -234,19 +234,21 @@ img.bg{
     height: 320px;
 }
 
-.card1 p, .card1 p{
+.card1 p, .card2 p{
     font-size: 14px;
-    width: 380px;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: absolute;
-    top: 250px;
+    top: 240px;
 }
 
 img.pic{
-    width: 150px;
-    height: 170px;
+    width: 130px;
+    height: 150px;
     position: absolute;
-    top:24px;
-    left: 77px;
+    top:35px;
+    left: 90px;
     border-radius: 50%;
 }
 /* Smartphones (portrait and landscape) ———– */
