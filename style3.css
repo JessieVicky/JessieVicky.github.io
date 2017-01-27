@@ -269,11 +269,18 @@ img.pic{
         padding-top: 30px;
         overflow: auto;
     }
+
+    .boxes{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
     .box1, .box2, .box3, .box4{
         float: left;
         font-size: 14px;
-        width: 310px;
-        height: 310px;
+        width: 300px;
+        height: 300px;
         margin: 10px;
         position: relative;
     }
@@ -318,12 +325,17 @@ img.pic{
         padding-top: 30px;
         overflow: auto;
     }
+    .boxes{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
 
     .box1, .box2, .box3, .box4{
         float: left;
         font-size: 14px;
-        width: 310px;
-        height: 310px;
+        width: 300px;
+        height: 300px;
         margin: 10px;
         position: relative;
     }
@@ -338,13 +350,13 @@ img.pic{
         display: none;
     }
 
-    .gallerydoor{
+    /*.gallerydoor{
         width: 90%;
         margin: auto;
         text-align: justify;
         -ms-text-justify: distribute;
         text-justify: distribute;
-    }
+    }*/
 
     #footer{
         margin-top: 50px;
