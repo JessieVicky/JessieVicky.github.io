@@ -239,9 +239,10 @@ img.bg{
 .card1 p, .card2 p{
     font-size: 14px;
     width: 300px;
-    padding-left: 60px;
+    padding-left: 20px;
     position: relative;
-    top: -38px;
+    top: -100px;
+    margin-bottom: -5px;
 }
 
 img.pic{
