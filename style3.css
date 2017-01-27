@@ -409,7 +409,13 @@ img.pic{
         display: block;
         position: relative;
     }
-    
+    .boxes_test{
+        width: 50%;
+        padding-top: 100px;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
     .boxes_s{
         width: 700px;
         margin: auto;
