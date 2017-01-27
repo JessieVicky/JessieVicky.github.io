@@ -58,6 +58,7 @@ img.cover_img{
     text-decoration: none;
     float: right;
     text-align: center;
+    font-size: 18px;
     margin-right: 40px;
     top: 25px;
     color: #D91B5C;
@@ -364,6 +365,12 @@ img.pic{
         padding-bottom: 50px;
     }
 
+}
+
+@media screen and (max-width : 988px) {
+    #tags{
+        display: none;
+    }
 }
 
 @media screen and (max-width : 1148px) {
