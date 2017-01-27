@@ -233,15 +233,15 @@ figure{
 img.bg{        
     width: 425px;
     height: 320px;
+    opacity: 0.8;
 }
 
 .card1 p, .card2 p{
     font-size: 14px;
     width: 300px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 60px;
     position: relative;
-    top: 240px;
+    top: -38px;
 }
 
 img.pic{
