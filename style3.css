@@ -269,7 +269,7 @@ img.pic{
         overflow: auto;
     }
 
-    .boxes{
+    .boxes, .boxes_s{
         width: 90%;
         margin: auto;
         margin-bottom: 50px;
@@ -295,11 +295,6 @@ img.pic{
         display: none;
     }
     
-    .boxes_s{
-        width: 40%;
-        margin: auto;
-        margin-bottom: 50px;
-    }
     #footer{
         display: none;
     }
@@ -323,7 +318,7 @@ img.pic{
         padding-top: 30px;
         overflow: auto;
     }
-    .boxes{
+    .boxes, .boxes_s{
         width: 90%;
         margin: auto;
         margin-bottom: 50px;
@@ -347,12 +342,6 @@ img.pic{
 
     .boxes div.box5 img{
         display: none;
-    }
-
-    .boxes_s{
-        width: 40%;
-        margin: auto;
-        margin-bottom: 50px;
     }
 
     #footer{
@@ -419,7 +408,7 @@ img.pic{
     }
     
     .boxes_s{
-        width: 40%;
+        width: 700px;
         margin: auto;
         margin-bottom: 50px;
     }
