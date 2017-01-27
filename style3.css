@@ -366,6 +366,11 @@ img.pic{
 
 }
 
+@media screen and (max-width : 1148px) {
+    .boxes_s{
+        width: 90%;
+    }
+}
 /* Desktops and laptops ———– */
 @media screen and (min-width : 900px) {
     #body{
