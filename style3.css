@@ -10,17 +10,16 @@ body{
 
 #header{
     color: #D91B5C;
-    background-color: #fff;
+    overflow: hidden;
     height: 72px;
     padding-left: 50px;
     margin-top: 0px;
     margin-bottom: 60px;
-    border-bottom: 3px solid #D91B5C;
 }
 #rotaract{
     width: 280px;
     float: left;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 img#headerlogo{
     width: 120px;
@@ -59,7 +58,7 @@ img.cover_img{
     text-decoration: none;
     float: right;
     text-align: center;
-    margin-right: 30px;
+    margin-right: 40px;
     top: 25px;
     color: #D91B5C;
 }
@@ -372,6 +371,7 @@ img.pic{
     }
 
 }
+
 /* Desktops and laptops ———– */
 @media screen and (min-width : 900px) {
     #body{
