@@ -17,8 +17,9 @@
             scrollTop: $(target).offset().top
         }, 500);
     }));
-    function autoscroll(id) {
-        document.getElementById("id").scrollIntoView();    
+    function autoscroll() {
+        var myDiv = document.getElementById("gallerydoor"):
+        scrollTo(myDiv,0,100);    
     };
     </script>
     <div id="all">
@@ -56,7 +57,7 @@
                 </div>   
             </div>  
             <!-- BILDGALLERI -->
-            <div id="gallerydoor" onscroll="autoscroll('gallerydoor')">
+            <div id="gallerydoor" onscroll="autoscroll()">
                 <div class="boxes">
                     <!-- BOX-NUMRERING MED VÄNSTER TILL HÖGER -->
                     <!-- BOX 1 -->
