@@ -17,10 +17,6 @@
             scrollTop: $(target).offset().top
         }, 500);
     }));
-    function autoscroll(id) {
-        var element = $('#'+id).position().top;
-        $(window).scrollTop(element); 
-    };
     </script>
     <div id="all">
         <!-- BACKGROUND -->
@@ -197,6 +193,10 @@
     </div>
 </div>
 <script>
+    function autoscroll(id) {
+        var element = $('#'+id).position().top;
+        $(window).scrollTop(element); 
+    };
     // TEXTER FÖR BOXARNA SOM ÄR ROTARACTS NYCKELORD
     var box1_txt = "Rotaractare från världens alla kontinenter delar den gemensamma drivkraften att vilja ge tillbaka till samhället. Det kan vara storslagna visioner som att utrota Polio (ett projekt som Rotary och samarbetande organisationer har arbetat med sedan 1979, sedan dess har antalet poliofall avtagit med 99%.) och det kan vara den enkla tanken att vilja öka medvetenheten om blodgivning genom att dela ut reflexer på ett torg. Oavsett storlek på vision är varje agerad omtanke ett steg i rätt riktning.";
     var box2_txt = "Med fler än 9500 klubbar över hela världen och stark kontakt med Rotary, besitter Rotaract ett enormt nätverk som sträcker sig över åldrar, etnicitet och geografi. Det fantastiska med detta nätverk är öppenheten och välkomnandet. Det uppmanas att söka kontakt med varandra, för i och med ett nytt möte skapas det fler tankar, nya idéer och mer engagemang.";
