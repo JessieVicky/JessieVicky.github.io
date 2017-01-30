@@ -18,7 +18,8 @@
         }, 500);
     }));
     function autoscroll(id) {
-        document.getElementById(id).scrollIntoView(true);    
+        var element = $('#'+id).position().top;
+        $(window).scrollTop(element); 
     };
     </script>
     <div id="all">
