@@ -19,7 +19,9 @@
     }));
     function autoscroll() {
         var myDiv = document.getElementById("gallerydoor"):
-        scrollTo(myDiv,0,100);    
+        $('html, body').animate({
+            scrollTop: $("#"+myDiv).offset().top
+        }, 500);    
     };
     </script>
     <div id="all">
