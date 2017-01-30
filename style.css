@@ -299,7 +299,7 @@ img.pic{
         margin: auto;
         margin-bottom: 50px;
     }
-    .boxes div.box5 img{
+    .boxes div.box5{
         display: none;
     }    
     #footer{
@@ -328,7 +328,7 @@ img.pic{
         margin: auto;
         margin-bottom: 50px;
     }
-    .boxes div.box5 img{
+    .boxes div.box5{
         display: none;
     }
 }
