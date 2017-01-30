@@ -21,6 +21,9 @@ body{
     float: left;
     padding-left: 40px;
 }
+#rotaract:hover{
+    cursor: default;
+}
 img#headerlogo{
     width: 120px;
     height: 50px;
