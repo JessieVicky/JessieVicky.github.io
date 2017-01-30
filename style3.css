@@ -4,6 +4,26 @@ body{
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
 
+#keywords, #gallerydoor, #contact{
+    padding-left: 20px;
+}
+/* --------------------------- BACKGROUND -------------------------- */
+
+#headerimg {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 50px;
+    border-bottom: 5px solid #D91B5C;
+}
+
+img.cover_img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+/* --------------------------- HEADER -------------------------- */
 .word2space{
     margin-left: 10px;
 }
@@ -41,21 +61,6 @@ img#headerlogo{
     top: 27px;
 }
 
-#headerimg {
-    width: 100%;
-    overflow: hidden;
-    padding-bottom: 50px;
-    border-bottom: 5px solid #D91B5C;
-}
-
-img.cover_img{
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
 #tags .tag1 a, #tags .tag2 a, #tags .tag3 a{
     position: relative;
     text-decoration: none;
@@ -71,9 +76,7 @@ img.cover_img{
     color: #262626;
 }
 
-#keywords, #gallerydoor, #contact{
-    padding-left: 20px;
-}
+/* --------------------------- KEYWORDS -------------------------- */
 
 .box1{
     background: #D91B5C;
@@ -138,7 +141,7 @@ img.cover_img{
     cursor: help;
 }
 
-/* IMAGES */
+/* --------------------------- GALLERYDOOR -------------------------- */
 
 .view {
     width: 300px;
@@ -223,6 +226,7 @@ figure{
     margin: 0;
 }
 
+/* --------------------------- CONTACT -------------------------- */
 
 .card1, .card2{
     float: left;
@@ -258,7 +262,26 @@ img.pic{
     left: 69px;
     /*border-radius: 50%;*/
 }
-/* Smartphones (portrait and landscape) ———– */
+
+/* --------------------------- FOOTER -------------------------- */
+
+#footer{
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: #262626;
+    color:#fff;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
+}
+
+#footer p{
+    margin-left: 140px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+/* --------------------------- RESPONSIVE WEB DESIGN -------------------------- */
+
+/* SMALLEST BUILD, FOR MOBILES */
 @media screen and (max-width : 480px) {
     #all{
         min-width: 480px;
@@ -280,7 +303,7 @@ img.pic{
         overflow: hidden;
     }
 
-    .boxes, .boxes_s, .boxes_test{
+    .boxes, .boxes_s{
         width: 90%;
         margin: auto;
         margin-bottom: 50px;
@@ -311,9 +334,8 @@ img.pic{
     }
 }
 
+/* MEDIUM BUILD */
 @media screen and (min-width : 481px) and (max-width : 899px) {
-    #all{
-    }
 
     #header{
         width: 100%;
@@ -331,7 +353,7 @@ img.pic{
         padding-left: 20px;
         overflow: hidden;
     }
-    .boxes, .boxes_s, .boxes_test{
+    .boxes, .boxes_s{
         width: 90%;
         margin: auto;
         margin-bottom: 50px;
@@ -356,24 +378,9 @@ img.pic{
     .boxes div.box5 img{
         display: none;
     }
-
-    #footer{
-        margin-top: 50px;
-        overflow: hidden;
-        background-color: #262626;
-        color:#fff;
-        font-size: 20px;
-        font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
-    }
-
-    #footer p{
-        margin-left: 140px;
-        margin-top: 50px;
-        padding-bottom: 50px;
-    }
-
 }
 
+/* VÄLDIGT FULKOD FÖR ATT #TAGS INTE SKULLE HOPPA NED FEL */
 @media screen and (max-width : 988px) {
     #tags{
         display: none;
@@ -381,14 +388,9 @@ img.pic{
 }
 
 
-/* Desktops and laptops ———– */
+/* LARGEST BUILD  */
 @media screen and (min-width : 900px) {
-    #body{
-    }
-
-    #all{
-    }
-
+    
     #header{
         width: 100%;
     }
@@ -427,34 +429,15 @@ img.pic{
         display: block;
         position: relative;
     }
-    .boxes_test{
-        width: 50%;
-        padding-top: 100px;
-        margin: auto;
-        padding-bottom: 50px;
-    }
 
     .boxes_s{
         width: 700px;
         margin: auto;
         margin-bottom: 50px;
     }
-    #footer{
-        margin-top: 50px;
-        overflow: hidden;
-        background-color: #262626;
-        color:#fff;
-        font-size: 20px;
-        font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
-    }
-
-    #footer p{
-        margin-left: 140px;
-        margin-top: 50px;
-        padding-bottom: 50px;
-    }
 }
 
+/* GLÖMT, MEN ANTAR DET ÄR FÖR ATT CONTACT SKA SE SNYGG UT ÄVEN MED STÖRRE SKÄRMAR */
 @media screen and (max-width : 1148px) {
     .boxes_s{
         width: 90%;
