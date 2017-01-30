@@ -1,11 +1,17 @@
+
 body{
     margin: 0;
     padding: 0;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
-
 #keywords, #gallerydoor, #contact{
     padding-left: 20px;
+}
+
+.boxes{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
 }
 /* --------------------------- BACKGROUND -------------------------- */
 
@@ -15,7 +21,6 @@ body{
     padding-bottom: 50px;
     border-bottom: 5px solid #D91B5C;
 }
-
 img.cover_img{
     position: fixed;
     top: 0;
@@ -27,7 +32,6 @@ img.cover_img{
 .word2space{
     margin-left: 10px;
 }
-
 #header{
     color: #D91B5C;
     overflow: hidden;
@@ -60,7 +64,6 @@ img#headerlogo{
     font-size: 20px;
     top: 27px;
 }
-
 #tags .tag1 a, #tags .tag2 a, #tags .tag3 a{
     position: relative;
     text-decoration: none;
@@ -71,7 +74,6 @@ img#headerlogo{
     top: 25px;
     color: #D91B5C;
 }
-
 #tags a:hover{
     color: #262626;
 }
@@ -81,20 +83,30 @@ img#headerlogo{
 .box1{
     background: #D91B5C;
 }
-
 .box2{
     background: #D91B5C;
 }
-
 .box3{
     background: #D91B5C;
 }
-
 .box4{
     background: #F7A81B;
 }
-
-
+.box1, .box2, .box3, .box4, .box5{
+    float: left;
+    font-size: 14px;
+    width: 300px;
+    height: 300px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
 .box1 h2, .box2 h2, .box3 h2, .box4 h2{
     margin: 0;
     position: absolute;
@@ -103,7 +115,6 @@ img#headerlogo{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-
 }
 .box1 h3, .box2 h3, .box3 h3, .box4 h3{
     font-size: 14px;
@@ -119,23 +130,18 @@ img#headerlogo{
     opacity:0;
     transition: 1s;
 }
-
 .box1 h3{
     background: #fff;
 }
-
 .box2 h3{
     background: #fff;
 }
-
 .box3 h3{
     background: #fff;
 }
-
 .box4 h3{
     background: #fff;
 }
-
 .box1:hover h3, .box2:hover h3, .box3:hover h3, .box4:hover h3, .box1:focus h3, .box2:focus h3, .box3:focus h3, .box4:focus h3{
     opacity:0.9;
     cursor: help;
@@ -165,11 +171,9 @@ img#headerlogo{
 .view img {
     height: 300px;
 }
-
 .view img.tall{
     height: auto;
 }
-
 .view h2 {
     color: #fff;
     text-align: center;
@@ -188,8 +192,6 @@ img#headerlogo{
     padding: 10px 20px 20px;
     text-align: justify;
 }
-
-
 .view img {
     transition: all 0.3s ease-in-out;
 }
@@ -209,7 +211,6 @@ img#headerlogo{
     color: #333;
     transition: all 0.2s linear;
 }
-
 .view:hover .mask, .view:focus .mask {
     transform: translateX(0px);
 }
@@ -221,7 +222,6 @@ img#headerlogo{
     opacity: 1;
     transition-delay: 0.4s;
 }
-
 figure{
     margin: 0;
 }
@@ -237,13 +237,11 @@ figure{
     position: relative;
     font-family: Georgia, serif;
 }
-
 img.bg{        
     width: 425px;
     height: 320px;
     opacity: 0.7;
 }
-
 .card1 p, .card2 p{
     font-size: 14px;
     width: 300px;
@@ -253,14 +251,12 @@ img.bg{
     margin-bottom: -5px;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
-
 img.pic{
     width: 170px;
     height: 170px;
     position: absolute;
     top:23px;
     left: 69px;
-    /*border-radius: 50%;*/
 }
 
 /* --------------------------- FOOTER -------------------------- */
@@ -273,7 +269,6 @@ img.pic{
     font-size: 20px;
     font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
 }
-
 #footer p{
     margin-left: 140px;
     margin-top: 50px;
@@ -286,15 +281,12 @@ img.pic{
     #all{
         min-width: 480px;
     }
-
     #header{
         position: center;
     }
-    
     #tags{
         display: none;
     }
-
     #keywords, #gallerydoor, #contact{
         width: 100%;
         margin: auto;
@@ -302,33 +294,14 @@ img.pic{
         padding-left: 20px;
         overflow: hidden;
     }
-
-    .boxes, .boxes_s{
+    .boxes_s{
         width: 90%;
         margin: auto;
         margin-bottom: 50px;
     }
-
-    .box1, .box2, .box3, .box4{
-        float: left;
-        font-size: 14px;
-        width: 300px;
-        height: 300px;
-        margin-right: 15px;
-        margin-bottom: 15px;
-        position: relative;
-    }
-    .box1 img, .box2 img, .box3 img, .box4 img{
-        width: 100%;
-        height: 100%;
-        display: block;
-        position: relative;
-    }
-
     .boxes div.box5 img{
         display: none;
-    }
-    
+    }    
     #footer{
         display: none;
     }
@@ -336,15 +309,12 @@ img.pic{
 
 /* MEDIUM BUILD */
 @media screen and (min-width : 481px) and (max-width : 899px) {
-
     #header{
         width: 100%;
     }
-    
     #tags{
         display: none;
     }
-
     #keywords, #gallerydoor, #contact{
         width: 90%;
         margin: auto;
@@ -353,28 +323,11 @@ img.pic{
         padding-left: 20px;
         overflow: hidden;
     }
-    .boxes, .boxes_s{
+    .boxes_s{
         width: 90%;
         margin: auto;
         margin-bottom: 50px;
     }
-
-    .box1, .box2, .box3, .box4{
-        float: left;
-        font-size: 14px;
-        width: 300px;
-        height: 300px;
-        margin-right: 15px;
-        margin-bottom: 15px;
-        position: relative;
-    }
-    .box1 img, .box2 img, .box3 img, .box4 img{
-        width: 100%;
-        height: 100%;
-        display: block;
-        position: relative;
-    }
-
     .boxes div.box5 img{
         display: none;
     }
@@ -390,46 +343,21 @@ img.pic{
 
 /* LARGEST BUILD  */
 @media screen and (min-width : 900px) {
-    
     #header{
         width: 100%;
     }
-
     #tags{
         width: 50%;
         margin-top: 4px;
         padding-right: 100px;
         float: right;
     }
-
     #keywords, #gallerydoor, #contact{
         margin-bottom: 200px;
         padding-top: 50px;
         overflow: hidden;
         padding-left: 100px;
     }
-    .boxes{
-        width: 90%;
-        margin: auto;
-        margin-bottom: 50px;
-    }
-
-    .box1, .box2, .box3, .box4, .box5{
-        float: left;
-        font-size: 14px;
-        width: 300px;
-        height: 300px;
-        margin-right: 15px;
-        margin-bottom: 15px;
-        position: relative;
-    }
-    .box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
-        width: 100%;
-        height: 100%;
-        display: block;
-        position: relative;
-    }
-
     .boxes_s{
         width: 700px;
         margin: auto;
