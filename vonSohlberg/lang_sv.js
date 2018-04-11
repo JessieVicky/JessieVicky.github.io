@@ -1,6 +1,12 @@
 
 var sve = { 
-		"banner" :"Nu var det dags!",
+		"home_banner" :"Nu var det dags!",
+		"schedule_banner" : "Tid och Plats",
+		"transport_banner" : "Transport",
+		"food_banner" : "Dryck och Allergier",
+		"accomodation_banner" : "Boende",
+		"dresscode_banner" : "Dresscode",
+		"contact_banner" : "Kontakt",
 		"home" : "Home",
 		"schedule" : "Schema",
 		"transport" : "Transport",
