@@ -9,7 +9,8 @@ var eng = {
 		"dresscode" : "Dresscode",
 		"contact" : "Contact",
 		"intro" : "The wedding is closing in...",
-		"pt1" : "If you ",
+		"intro_highlight" : "30th of April",
+ 		"pt1" : "If you ",
 		"pt2" : "If you",
 		"pt3" : "If you",
 		"pt4" : "If you"
