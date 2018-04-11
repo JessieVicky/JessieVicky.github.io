@@ -7,17 +7,41 @@
 	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
 
 	<title>Sussie and Magne's wedding - Location</title>
-<!-- https://www.cssmatic.com/noise-texture -->
+	<!-- https://www.cssmatic.com/noise-texture -->
 	
 	<!-- Initiliaze JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- Initialize Styles sheet -->
 	<link rel ="stylesheet" type="text/css" href="css.css" />
 	<link rel ="stylesheet" type="text/css" href="timelinetest.css" />	
+	<!-- Translate language -->
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="lang_en.js"></script>
+	<script type="text/javascript" src="lang_sv.js"></script>
+	<script type="text/javascript">
+
+	$(function(){
+		$('.translate').click(function(){
+			var lang = $(this).attr('id');
+			
+			if (lang == 'en'){
+				$('.lang').each(function(index, element){
+					$(this).text(eng[$(this).attr('key')]);
+				});}
+				else if (lang == 'sv'){
+					$('.lang').each(function(index, element){
+						$(this).text(sve[$(this).attr('key')]);
+					});}		
+				});
+	});
+	</script>
 </head>
 
 <body>
+	
 	<div class="border">
+		<button class="translate" id="en">English</button> 
+		<button class="translate" id="sv">Swedish</button> 
 		<div class ="header">
 			<h1>
 				Tid och Plats
@@ -28,71 +52,71 @@
 		<button class="cross" id="close">&#735;</button>
 		<nav id="navBar">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a class="active" href="location.html">Schema</a></li>
-				<li><a href="transport.html">Transport</a></li>
-				<li><a href="food.html">Dryck och allergi</a></li>
-				<li><a href="accomodation.html">Boende</a></li>
-				<li><a href="dresscode.html">Dresscode</a></li>
-				<li><a href="contact.html">Kontakt</a></li>
+				<li><a class="lang" key="home" href="index.html">Home</a></li>
+				<li><a class="active" class="lang" key="schedule" href="location.html">Schema</a></li>
+				<li><a class="lang" key="transport" href="transport.html">Transport</a></li>
+				<li><a class="lang" key="food" href="food.html">Dryck och Allergier</a></li>
+				<li><a class="lang" key="accomodation" href="accomodation.html">Boende</a></li>
+				<li><a class="lang" key="dresscode" href="dresscode.html">Dresscode</a></li>
+				<li><a class="lang" key="contact" href="contact.html">Kontakt</a></li>
 			</ul>
 		</nav>
-	
-	<div class = "pagecontent">
-		<p>
-			Bröllopet kommer att hållas på Bro Hof Slott den 30e Juni 2018. Vigseln börjar 15:30 vilket följs av mingel och fördrink, middag, tårta och efterfest. Hela spektaklet slutar klockan 00:50, men de som känner sig färdiga tidigare eller har småbarn får avvika när ni behöver ^^
-		</p>
-		 <div class="timeline">
-		  <div class="container right">
-			<div class="content">
-			  <h2>15:00</h2>
-			  <p>Buss avgår från Bro Station till Bro Hof Slott</p>
+
+		<div class = "pagecontent">
+			<p class="lang" key="schedule_intro">
+				Bröllopet kommer att hållas på Bro Hof Slott den 30e Juni 2018. Vigseln börjar 15:30 vilket följs av mingel och fördrink, middag, tårta och efterfest. Hela spektaklet slutar klockan 00:50, men de som känner sig färdiga tidigare eller har småbarn får avvika när ni behöver ^^
+			</p>
+			<div class="timeline">
+				<div class="container right">
+					<div class="content">
+						<h2>15:00</h2>
+						<p class="lang" key="schedule_15">Buss avgår från Bro Station till Bro Hof Slott</p>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content">
+						<h2>15:30</h2>
+						<p class="lang" key="schedule_1530">Vigsel startar på gräsmattan under eken (inomhus på övervåningen vid regn)</p>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content">
+						<h2>16:00</h2>
+						<p class="lang" key="schedule_16">Vigseln slutar. Bröllopsparet tar bröllopsbilder och gästerna minglar under tiden.</p>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content">
+						<h2>17:30</h2>
+						<p class="lang" key="schedule_1730">Middagen börjar på övervåningen.</p>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content">
+						<h2>20:00</h2>
+						<p class="lang" key="schedule_20">Tårta och avec följt av bröllopsdans.</p>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content">
+						<h2>21:00ish</h2>
+						<p class="lang" key="schedule_21">Middagen avslutas och efterfesten börjar.</p>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content">
+						<h2>23:00</h2>
+						<p class="lang" key="schedule_23">Efterfesten fortsätter och vickning serveras.</p>
+					</div>
+				</div>  
+				<div class="container right">
+					<div class="content">
+						<h2>00:50</h2>
+						<p class="lang" key="schedule_0050">Festen avslutas och buss avgår till Görvälns Slott för övernattning.</p>
+					</div>
+				</div>  
 			</div>
-		  </div>
-		  <div class="container right">
-			<div class="content">
-			  <h2>15:30</h2>
-			  <p>Vigsel startar på gräsmattan under eken (inomhus på övervåningen vid regn)</p>
-			</div>
-		  </div>
-		  <div class="container right">
-			<div class="content">
-			  <h2>16:00</h2>
-			  <p>Vigseln slutar. Bröllopsparet tar bröllopsbilder och gästerna minglar under tiden.</p>
-			</div>
-		  </div>
-		  <div class="container right">
-			<div class="content">
-			  <h2>17:30</h2>
-			  <p>Middagen börjar på övervåningen.</p>
-			</div>
-		  </div>
-		  <div class="container right">
-			<div class="content">
-			  <h2>20:00</h2>
-			  <p>Tårta och avec följt av bröllopsdans.</p>
-			</div>
-		  </div>
-		  <div class="container right">
-			<div class="content">
-			  <h2>21:00ish</h2>
-			  <p>Middagen avslutas och efterfesten börjar.</p>
-			</div>
-		  </div>
-		  <div class="container right">
-			<div class="content">
-			  <h2>23:00</h2>
-			  <p>Efterfesten fortsätter och vickning serveras.</p>
-			</div>
-		  </div>  
-		  <div class="container right">
-			<div class="content">
-			  <h2>00:50</h2>
-			  <p>Festen avslutas och buss avgår till Görvälns Slott för övernattning.</p>
-			</div>
-		  </div>  
-		</div>
-	</div> 
+		</div> 
 	<!--
  <div class="timeline">
   <div class="container left">
@@ -108,13 +132,13 @@
     </div>
   </div>
 </div> 
-		-->
-	</border>
+-->
+</border>
 
-	<!-- Script for dropDown menu -->
-	<script>
-	document.getElementById("open").onclick = function() {dropDown()}; 
-	function dropDown(){
+<!-- Script for dropDown menu -->
+<script>
+document.getElementById("open").onclick = function() {dropDown()}; 
+function dropDown(){
 	document.getElementById("navBar").style.display="inline";
 	document.getElementById("close").style.display="inline";
 	document.getElementById("open").style.display="none";}
@@ -122,9 +146,9 @@
 	<script>
 	document.getElementById("close").onclick = function() {rollUp()}; 
 	function rollUp(){
-	document.getElementById("navBar").style.display="none";
-	document.getElementById("close").style.display="none";
-	document.getElementById("open").style.display="inline";}
-	</script>
-</body>
+		document.getElementById("navBar").style.display="none";
+		document.getElementById("close").style.display="none";
+		document.getElementById("open").style.display="inline";}
+		</script>
+	</body>
 </HTML>

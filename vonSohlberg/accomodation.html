@@ -4,18 +4,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	
 	<title>Sussie and Magne's wedding - Location</title>
-<!-- https://www.cssmatic.com/noise-texture -->
+	<!-- https://www.cssmatic.com/noise-texture -->
 	
 	<!-- Initiliaze JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- Initialize Styles sheet -->
 	<link rel ="stylesheet" type="text/css" href="css.css" />
-	<
+	<!-- Translate language -->
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="lang_en.js"></script>
+	<script type="text/javascript" src="lang_sv.js"></script>
+	<script type="text/javascript">
+
+	$(function(){
+		$('.translate').click(function(){
+			var lang = $(this).attr('id');
+			
+			if (lang == 'en'){
+				$('.lang').each(function(index, element){
+					$(this).text(eng[$(this).attr('key')]);
+				});}
+				else if (lang == 'sv'){
+					$('.lang').each(function(index, element){
+						$(this).text(sve[$(this).attr('key')]);
+					});}		
+				});
+	});
+
+	</script>
 	
 </head>
 
 <body>
+
 	<div class="border">
+		<button class="translate" id="en">English</button> 
+		<button class="translate" id="sv">Swedish</button> 
+
 		<div class ="header">
 			<h1>
 				Boende
@@ -25,37 +50,37 @@
 		<button class="cross" id="close">&#735;</button>
 		<nav id="navBar">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="location.html">Schema</a></li>
-				<li><a href="transport.html">Transport</a></li>
-				<li><a href="food.html">Dryck och allergi</a></li>
-				<li><a class="active" href="accomodation.html">Boende</a></li>
-				<li><a href="dresscode.html">Dresscode</a></li>
-				<li><a href="contact.html">Kontakt</a></li>
+				<li><a  class="lang" key="home" href="index.html">Home</a></li>
+				<li><a class="lang" key="schedule" href="location.html">Schema</a></li>
+				<li><a class="lang" key="transport" href="transport.html">Transport</a></li>
+				<li><a class="lang" key="food" href="food.html">Dryck och Allergier</a></li>
+				<li><a class="active" class="lang" key="accomodation" href="accomodation.html">Boende</a></li>
+				<li><a class="lang" key="dresscode" href="dresscode.html">Dresscode</a></li>
+				<li><a class="lang" key="contact" href="contact.html">Kontakt</a></li>
 			</ul>
 		</nav>
-	<div class = "pagecontent">
-		<p>
-			Vi har bokat boende på Görvälns Slott natten mellan lördag och söndag så att alla som vill kan stanna över natten och äta frukost tillsammans med oss morgonen efter. Meddela om ni vill stanna över natten och om ni vill ha ett enkelrum (1295 SEK) eller dubbelrum (1595 SEK) senast den 30e April. Betalning för rummen sker på plats samma dag.
-			Incheckningen till hotellet sker vid lunch på lördagen. För de som vill finns möjlighet att sova där redan natten innan. Kontakta i detta fall Görvälns Slott på +46 8 120 002 00 eller hello@gorvalnsslott.se.
-		</p>	
-	</div>
+		<div class = "pagecontent">
+			<p class="lang" key="accomodation_intro">
+				Vi har bokat boende på Görvälns Slott natten mellan lördag och söndag så att alla som vill kan stanna över natten och äta frukost tillsammans med oss morgonen efter. Meddela om ni vill stanna över natten och om ni vill ha ett enkelrum (1295 SEK) eller dubbelrum (1595 SEK) senast den 30e April. Betalning för rummen sker på plats samma dag.
+				Incheckningen till hotellet sker vid lunch på lördagen. För de som vill finns möjlighet att sova där redan natten innan. Kontakta i detta fall Görvälns Slott på +46 8 120 002 00 eller hello@gorvalnsslott.se.
+			</p>	
+		</div>
 	</border>
 	
 	<!-- Script for dropDown menu -->
 	<script>
 	document.getElementById("open").onclick = function() {dropDown()}; 
 	function dropDown(){
-	document.getElementById("navBar").style.display="inline";
-	document.getElementById("close").style.display="inline";
-	document.getElementById("open").style.display="none";}
-	</script>
-	<script>
-	document.getElementById("close").onclick = function() {rollUp()}; 
-	function rollUp(){
-	document.getElementById("navBar").style.display="none";
-	document.getElementById("close").style.display="none";
-	document.getElementById("open").style.display="inline";}
-	</script>
-</body>
-</HTML>
+		document.getElementById("navBar").style.display="inline";
+		document.getElementById("close").style.display="inline";
+		document.getElementById("open").style.display="none";}
+		</script>
+		<script>
+		document.getElementById("close").onclick = function() {rollUp()}; 
+		function rollUp(){
+			document.getElementById("navBar").style.display="none";
+			document.getElementById("close").style.display="none";
+			document.getElementById("open").style.display="inline";}
+			</script>
+		</body>
+	</HTML>

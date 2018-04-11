@@ -4,16 +4,39 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	
 	<title>Sussie and Magne's wedding - Location</title>
-<!-- https://www.cssmatic.com/noise-texture -->
+	<!-- https://www.cssmatic.com/noise-texture -->
 	<!-- Initiliaze JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- Initialize Styles sheet -->
 	<link rel ="stylesheet" type="text/css" href="css.css" />
-	
+	<!-- Translate language -->
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="lang_en.js"></script>
+	<script type="text/javascript" src="lang_sv.js"></script>
+	<script type="text/javascript">
+
+	$(function(){
+		$('.translate').click(function(){
+			var lang = $(this).attr('id');
+			
+			if (lang == 'en'){
+				$('.lang').each(function(index, element){
+					$(this).text(eng[$(this).attr('key')]);
+				});}
+				else if (lang == 'sv'){
+					$('.lang').each(function(index, element){
+						$(this).text(sve[$(this).attr('key')]);
+					});}		
+				});
+	});
+	</script>
 </head>
 
 <body>
+
 	<div class="border">
+		<button class="translate" id="en">English</button> 
+		<button class="translate" id="sv">Swedish</button> 
 		<div class ="header">
 			<h1>
 				Kontakt
@@ -24,19 +47,19 @@
 		<button class="cross" id="close">&#735;</button>
 		<nav id="navBar">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="location.html">Schema</a></li>
-				<li><a href="transport.html">Transport</a></li>
-				<li><a href="food.html">Dryck och allergi</a></li>
-				<li><a href="accomodation.html">Boende</a></li>
-				<li><a href="dresscode.html">Dresscode</a></li>
-				<li><a class="active" href="contact.html">Kontakt</a></li>
+				<li><a  class="lang" key="home" href="index.html">Home</a></li>
+				<li><a class="lang" key="schedule" href="location.html">Schema</a></li>
+				<li><a class="lang" key="transport" href="transport.html">Transport</a></li>
+				<li><a class="lang" key="food" href="food.html">Dryck och Allergier</a></li>
+				<li><a class="lang" key="accomodation" href="accomodation.html">Boende</a></li>
+				<li><a class="lang" key="dresscode" href="dresscode.html">Dresscode</a></li>
+				<li><a class="active" class="lang" key="contact" href="contact.html">Kontakt</a></li>
 			</ul>
 		</nav>
-	<div class = "pagecontent">
-		<p>
-			Bro Hof Slott
-		</p>
+		<div class = "pagecontent">
+			<p>
+				Bro Hof Slott
+			</p>
 			<div id='map' style='width: 100%; height: 500px; background-color:blue'></div>
 <!--			<script>
 		mapboxgl.accessToken = 'pk.eyJ1IjoibWFnbmV0aXNtZW4iLCJhIjoiY2pldXZkdncwNnAzdzMzbzdxZDg3c2JzZCJ9.Clemo9E3NPh5tOpod__FHQ';
@@ -48,21 +71,21 @@
 			attributionControl: false
 		});
 		</script>
--->	
-	<p>
+	-->	
+	<p class="lang" key="contact_intro">
 		Om det är något som är oklart, om ni vill hålla tal, om ni har några funderingar kring presentlistan, eller om det är något annat som är oklart, så kan ni kontakta Toastmaster Erik Ferm på följande mail:
 	</p>
 	
 	<p>
 		Sussie<span class="displaynone">obfuscation</span>Magne<span class="displaynone">preventing</span>Wedding@<span class="displaynone">spam</span>gmail.com
 	</p>
-	</div>	
-	</border>
-	
-	<!-- Script for dropDown menu -->
-	<script>
-	document.getElementById("open").onclick = function() {dropDown()}; 
-	function dropDown(){
+</div>	
+</border>
+
+<!-- Script for dropDown menu -->
+<script>
+document.getElementById("open").onclick = function() {dropDown()}; 
+function dropDown(){
 	document.getElementById("navBar").style.display="inline";
 	document.getElementById("close").style.display="inline";
 	document.getElementById("open").style.display="none";}
@@ -70,9 +93,9 @@
 	<script>
 	document.getElementById("close").onclick = function() {rollUp()}; 
 	function rollUp(){
-	document.getElementById("navBar").style.display="none";
-	document.getElementById("close").style.display="none";
-	document.getElementById("open").style.display="inline";}
-	</script>
-</body>
+		document.getElementById("navBar").style.display="none";
+		document.getElementById("close").style.display="none";
+		document.getElementById("open").style.display="inline";}
+		</script>
+	</body>
 </HTML>
