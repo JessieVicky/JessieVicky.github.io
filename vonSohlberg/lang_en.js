@@ -1,6 +1,12 @@
 
 var eng = { 
-		"banner" : "It's time!",
+		"home_banner" : "It's time!",
+		"schedule_banner" : "Schedule",
+		"transport_banner" : "Transport",
+		"food_banner" : "Food and Allergies",
+		"accomodation_banner" : "Accomodation",
+		"dresscode_banner" : "Dresscode",
+		"contact_banner" : "Contact",
 		"home" : "Home",
 		"schedule" : "Schedule",
 		"transport" : "Transport",
